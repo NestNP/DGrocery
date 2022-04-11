@@ -12,7 +12,7 @@
               </div>
               <div class="user-info">
                 <h5 class="mt-3 font-size-16 text-white">Saman Lama</h5>
-                <span class="font-size-13 text-white-50">Admin </span>
+                <span class="font-size-13 text-white-50">Man Utd Fan   </span>
               </div>
             </div>
           </div>
@@ -25,29 +25,29 @@
 
               <li>
                 <a href="index.html" class="waves-effect">
-                  <i class="dripicons-home"></i
-                  ><span class="badge rounded-pill bg-info float-end">3</span>
-                  <span>Dashboard</span>
+                 <img src="{{asset ('assetsAdmin/images/iconpack/iconspng/dashboard.png')}}" alt="" style="width: 20px">
+                  <span class="badge rounded-pill bg-info float-end">3</span>
+                  <span> Dashboard</span>
                 </a>
               </li>
 
               <li>
                 <a href="calendar.html" class="waves-effect">
-                  <i class="dripicons-calendar"></i>
+                  <img src="{{asset ('assetsAdmin/images/iconpack/iconspng/calendar.png')}}" alt="" style="width: 20px">
                   <span>Calendar</span>
                 </a>
               </li>
 
               <li>
                 <a href="chat.html" class="waves-effect">
-                  <i class="dripicons-message"></i>
+                  <img src="{{asset ('assetsAdmin/images/iconpack/iconspng/chat.png')}}" alt="" style="width: 20px">
                   <span>Chat</span>
                 </a>
               </li>
 
               <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                  <i class="dripicons"><img src="assetsAdmin/images/iconpack/dripicons/SVG/article.svg" style="width: 19px; margin-bottom: 0px;" alt=""></i>
+                 <img src="assetsAdmin/images/iconpack/dripicons/SVG/article.svg" style="width: 19px; margin-bottom: 0px;" alt="">
                   <span>Post</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">                  
@@ -58,7 +58,7 @@
 
               <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                  <i class="dripicons-cart"></i>
+                  <img src="{{asset ('assetsAdmin/images/iconpack/iconspng/ecommerce.png')}}" alt="" style="width: 20px">
                   <span>Ecommerce</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
@@ -77,12 +77,11 @@
 
               <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                  <i class=""
-                    ><img
+  <img
                       src="assetsAdmin/images/iconpack/dripicons/SVG/user.svg"
                       alt=""
                       style="width: 15px; margin-bottom: 4px"
-                  /></i>
+                  />
                   <span>Users</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
@@ -93,7 +92,7 @@
 
               <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                  <i class="dripicons"> <img src="assetsAdmin/images/iconpack/dripicons/SVG/user-group.svg" style="width: 19px; margin-bottom: 4px;" alt=""></i>
+                   <img src="assetsAdmin/images/iconpack/dripicons/SVG/user-group.svg" style="width: 19px; margin-bottom: 4px;" alt="">
                   <span>Costumers</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
@@ -104,7 +103,7 @@
 
               <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                  <i class="dripicons"><img src="assetsAdmin/images/iconpack/dripicons/SVG/document-new.svg" style="width: 18px; margin-bottom: 4px;" alt=""></i>
+                  <img src="assetsAdmin/images/iconpack/dripicons/SVG/document-new.svg" style="width: 18px; margin-bottom: 4px;" alt="">  
                   <span>Page</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
@@ -115,7 +114,7 @@
 
               <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                  <i class="dripicons-mail"></i>
+                  <img src="{{asset ('assetsAdmin/images/iconpack/iconspng/email.png')}}" alt="" style="width: 20px">
                   <span>Email</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
