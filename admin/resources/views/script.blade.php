@@ -5,7 +5,6 @@
     <script src="assets/libs/node-waves/waves.min.js"></script>
 
     <!-- apexcharts -->
-    <script src="{{asset (assets/libs/apexcharts/apexcharts.min.js)}}"></script>
 
     <!-- Plugins js-->
     <script src="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js"></script>
