@@ -4,7 +4,7 @@
             <div class="dropdown">
               <div class="user-img">
                 <img
-                  src="assets/images/users/avatar-7.jpg"
+                  src="assetsAdmin/images/users/avatar-7.jpg"
                   alt=""
                   class="rounded-circle"
                 />
@@ -47,7 +47,7 @@
 
               <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                  <i class="dripicons"><img src="assets/images/iconpack/dripicons/SVG/article.svg" style="width: 19px; margin-bottom: 0px;" alt=""></i>
+                  <i class="dripicons"><img src="assetsAdmin/images/iconpack/dripicons/SVG/article.svg" style="width: 19px; margin-bottom: 0px;" alt=""></i>
                   <span>Post</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">                  
@@ -79,7 +79,7 @@
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
                   <i class=""
                     ><img
-                      src="assets/images/iconpack/dripicons/SVG/user.svg"
+                      src="assetsAdmin/images/iconpack/dripicons/SVG/user.svg"
                       alt=""
                       style="width: 15px; margin-bottom: 4px"
                   /></i>
@@ -93,7 +93,7 @@
 
               <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                  <i class="dripicons"> <img src="assets/images/iconpack/dripicons/SVG/user-group.svg" style="width: 19px; margin-bottom: 4px;" alt=""></i>
+                  <i class="dripicons"> <img src="assetsAdmin/images/iconpack/dripicons/SVG/user-group.svg" style="width: 19px; margin-bottom: 4px;" alt=""></i>
                   <span>Costumers</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
@@ -104,7 +104,7 @@
 
               <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                  <i class="dripicons"><img src="assets/images/iconpack/dripicons/SVG/document-new.svg" style="width: 18px; margin-bottom: 4px;" alt=""></i>
+                  <i class="dripicons"><img src="assetsAdmin/images/iconpack/dripicons/SVG/document-new.svg" style="width: 18px; margin-bottom: 4px;" alt=""></i>
                   <span>Page</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">

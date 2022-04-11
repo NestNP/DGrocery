@@ -9,28 +9,28 @@
     />
     <meta content="Themesdesign" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/logo-dark.png" />
+    <link rel="shortcut icon" href="assetsAdmin/images/logo-dark.png" />
 
     <!-- plugin css -->
     <link
-      href="{{asset (assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css)}}"
+      href="{{asset ('assetsAdmin/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css')}}"
       rel="stylesheet"
       type="text/css"
     />
 
     <!-- Bootstrap Css -->
     <link
-      href="{{asset ('assets/css/bootstrap.min.css')}}"
+      href="{{asset ('assetsAdmin/css/bootstrap.min.css')}}"
       id="bootstrap-style"
       rel="stylesheet"
       type="text/css"
     />
-    <!-- {{asset ('assets/css/bootstrapmin.css')}} -->
+    <!-- {{asset ('assetsAdmin/css/bootstrapmin.css')}} -->
     <!-- Icons Css -->
-    <link href="{{asset ('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset ('assetsAdmin/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link
-      href="{{asset ('assets/css/app.min.css')}}"
+      href="{{asset ('assetsAdmin/css/app.min.css')}}"
       id="app-style"
       rel="stylesheet"
       type="text/css"
@@ -45,21 +45,21 @@
             <div class="navbar-brand-box">
               <a href="#" class="logo logo-dark">
                 <span class="logo-sm">
-                  <img src="assets/images/logo-dark.png" alt="" height="22" />
+                  <img src="assetsAdmin/images/logo-dark.png" alt="" height="22" />
                 </span>
                 <span class="logo-lg">
-                  <img src="assets/images/logo-dark.png" alt="" height="70" />
+                  <img src="assetsAdmin/images/logo-dark.png" alt="" height="70" />
                 </span>
               </a>
 
               <a href="#" class="logo logo-light">
                 <span class="logo-sm">
-                  <img src="assets/images/logo-dark.png" alt="" height="22" />
+                  <img src="assetsAdmin/images/logo-dark.png" alt="" height="22" />
                 </span>
                 <span class="logo-lg">
                   <img
                     class="rounded-circle"
-                    src="assets/images/logo-dark.png"
+                    src="assetsAdmin/images/logo-dark.png"
                     alt=""
                     height="60"
                   />
@@ -213,7 +213,7 @@
                   <a href="" class="text-reset notification-item">
                     <div class="media">
                       <img
-                        src="assets/images/users/avatar-3.jpg"
+                        src="assetsAdmin/images/users/avatar-3.jpg"
                         class="me-3 rounded-circle avatar-xs"
                         alt="user-pic"
                       />
@@ -256,7 +256,7 @@
                   <a href="" class="text-reset notification-item">
                     <div class="media">
                       <img
-                        src="assets/images/users/avatar-4.jpg"
+                        src="assetsAdmin/images/users/avatar-4.jpg"
                         class="me-3 rounded-circle avatar-xs"
                         alt="user-pic"
                       />
@@ -296,7 +296,7 @@
               >
                 <img
                   class="rounded-circle header-profile-user"
-                  src="assets/images/users/avatar-7.jpg"
+                  src="assetsAdmin/images/users/avatar-7.jpg"
                   alt="Header Avatar"
                 />
                 <span class="d-none d-xl-inline-block ms-1">Saman</span>

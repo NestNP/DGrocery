@@ -1,6 +1,6 @@
-@include ('header')
-@include ('sidebar')
+@include ('admin/header')
+@include ('admin/sidebar')
 
-@include ('script')
+@include ('admin/script')
 </body>
 </html>
