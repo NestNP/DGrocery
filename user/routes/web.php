@@ -17,4 +17,5 @@ use App\Http\Controllers\CalenderController;
 */
 Route::get('/','HomeController@home' )->name('home');
 Route::get('/admin','AdminController@adminHomepage' )->name('admin');
-Route::get('/admin/calender','CalenderController@CalenderPage' )->name('calender');
+Route::get('/admin/calender','AdminController@adminCalender' )->name('calender');
+// Route::get('/admin/calender','CalenderController@CalenderPage' )->name('calender');

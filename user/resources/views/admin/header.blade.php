@@ -36,10 +36,10 @@
       type="text/css"
     />
     <!-- calender -->
-    <link rel="stylesheet" href="'{{asset('assetsAdmin/libs/@fullcalendar/core/main.min.css')}}'" type="text/css">
-         <link rel="stylesheet" href="'{{asset('assetsAdmin/libs/@fullcalendar/daygrid/main.min.css')}}'" type="text/css">
-         <link rel="stylesheet" href="'{{asset('assetsAdmin/libs/@fullcalendar/bootstrap/main.min.css')}}'" type="text/css">
-         <link rel="stylesheet" href="'{{asset('assetsAdmin/libs/@fullcalendar/timegrid/main.min.css')}}'" type="text/css">
+    <link rel="stylesheet" href="{{asset('assetsAdmin/libs/@fullcalendar/core/main.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assetsAdmin/libs/@fullcalendar/daygrid/main.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assetsAdmin/libs/@fullcalendar/bootstrap/main.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assetsAdmin/libs/@fullcalendar/timegrid/main.min.css')}}" type="text/css">
 
 
   </head>
@@ -54,7 +54,7 @@
                   <img src="assetsAdmin/images/logo-dark.png" alt="" height="22" />
                 </span>
                 <span class="logo-lg">
-                  <img src="assetsAdmin/images/logo-dark.png" alt="" height="70" />
+                  <img src="../assetsAdmin/images/logo-dark.png" alt="" height="70" />
                 </span>
               </a>
 
