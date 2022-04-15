@@ -16,13 +16,11 @@
               </div>
             </div>
           </div>
-
           <!--- Sidemenu -->
           <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metismenu list-unstyled" id="side-menu">
               <li class="menu-title">Menu</li>
-
               <li>
                 <a href="index.html" class="waves-effect">
                  <img src="{{asset ('assetsAdmin/images/iconpack/iconspng/dashboard.png')}}" alt="" style="width: 20px">

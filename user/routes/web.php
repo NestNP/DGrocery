@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CalenderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,5 @@ use App\Http\Controllers\AdminController;
 */
 Route::get('/','HomeController@home' )->name('home');
 Route::get('/admin','AdminController@adminHomepage' )->name('admin');
+Route::get('/admin/calender','AdminController@adminCalender' )->name('calender');
+// Route::get('/admin/calender','CalenderController@CalenderPage' )->name('calender');

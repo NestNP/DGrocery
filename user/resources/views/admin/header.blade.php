@@ -9,7 +9,7 @@
     />
     <meta content="Themesdesign" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assetsAdmin/images/logo-dark.png" />
+    <link rel="shortcut icon" href="{{asset ('assetsAdmin/images/logo-dark.png')}}" />
 
     <!-- plugin css -->
     <link
@@ -35,6 +35,12 @@
       rel="stylesheet"
       type="text/css"
     />
+    <!-- calender -->
+    <link rel="stylesheet" href="{{asset('assetsAdmin/libs/@fullcalendar/core/main.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assetsAdmin/libs/@fullcalendar/daygrid/main.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assetsAdmin/libs/@fullcalendar/bootstrap/main.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assetsAdmin/libs/@fullcalendar/timegrid/main.min.css')}}" type="text/css">
+
 
   </head>
 <body>
@@ -48,7 +54,7 @@
                   <img src="assetsAdmin/images/logo-dark.png" alt="" height="22" />
                 </span>
                 <span class="logo-lg">
-                  <img src="assetsAdmin/images/logo-dark.png" alt="" height="70" />
+                  <img src="../assetsAdmin/images/logo-dark.png" alt="" height="70" />
                 </span>
               </a>
 
