@@ -13,4 +13,18 @@
 
     <script src="{{asset ('assetsAdmin/js/pages/dashboard.init.js')}}"></script>
 
+    <!-- plugin js -->
+    <script src="{{asset ('assetsAdmin/libs/moment/min/moment.min.js')}}"></script>
+    <script src="{{asset ('assetsAdmin/libs/jquery-ui-dist/jquery-ui.min.js')}}"></script>
+    <script src="{{asset ('assetsAdmin/libs/@fullcalendar/core/main.min.js')}}"></script>
+    <script src="{{asset ('assetsAdmin/libs/@fullcalendar/bootstrap/main.min.js')}}"></script>
+    <script src="{{asset ('assetsAdmin/libs/@fullcalendar/daygrid/main.min.js')}}"></script>
+    <script src="{{asset ('assetsAdmin/libs/@fullcalendar/timegrid/main.min.js')}}"></script>
+    <script src="{{asset ('assetsAdmin/libs/@fullcalendar/interaction/main.min.js')}}"></script>
+
+
+    <!-- Calendar init -->
+    <script src="{{asset ('assetsAdmin/js/pages/calendar.init.js')}}"></script>
+
+
     <script src="{{asset ('assetsAdmin/js/app.js')}}"></script>
