@@ -37,7 +37,56 @@
     <link rel="stylesheet" href="{{asset('assetsAdmin/libs/@fullcalendar/daygrid/main.min.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('assetsAdmin/libs/@fullcalendar/bootstrap/main.min.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('assetsAdmin/libs/@fullcalendar/timegrid/main.min.css')}}" type="text/css">
+    
+    {{-- AddPost --}}
+    <link
+    href="{{asset('assetsAdmin/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css')}}"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link
+  href="{{asset('assetsAdmin/css/bootstrap.min.css')}}"
+  id="bootstrap-style"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link
+    href="{{asset('assetsAdmin/libs/select2/css/select2.min.css')}}"
+    rel="stylesheet"
+    type="text/css"
+    />
+    <link
+    href="{{asset('assetsAdmin/css/bootstrap.min.css')}}"
+    id="bootstrap-style"
+    rel="stylesheet"
+    type="text/css"
+  />
+ 
+ <!-- Icons Css -->
+ <link href="{{asset('assetsAdmin/css/icons.min.css" rel="stylesheet" type="text/css')}}" />
+ <!-- App Css-->
+ <link
+   href="{{asset('assetsAdmin/css/app.min.css"')}}
+   id="app-style"
+   rel="stylesheet"
+   type="text/css"
+ />
 
+    
+    <style>
+      main .ck.ck-content {
+        padding-left: 20px;
+        height: 300px;
+      }
+      
+
+      .ck.ck-toolbar {
+        border-radius: 8px 8px 0 0 !important;
+      }
+      .ck.ck-editor__editable_inline  {
+        border-radius:  0 0 8px 8px !important;
+      }
+    </style>
 
   </head>
 <body>

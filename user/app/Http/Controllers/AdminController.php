@@ -14,6 +14,10 @@ class AdminController extends Controller
     {
         return view('/admin/calender');
     }
+    public function adminAddPost()
+    {
+        return view('/admin/addpost');
+    }
     
-    //
+    
 }
