@@ -22,7 +22,7 @@
             <ul class="metismenu list-unstyled" id="side-menu">
               <li class="menu-title">Menu</li>
               <li>
-                <a href="index.html" class="waves-effect">
+                <a href="/admin" class="waves-effect">
                  <img src="{{asset ('assetsAdmin/images/iconpack/iconspng/dashboard.png')}}" alt="" style="width: 20px">
                   <span class="badge rounded-pill bg-info float-end">3</span>
                   <span> Dashboard</span>
@@ -30,14 +30,14 @@
               </li>
 
               <li>
-                <a href="calendar.html" class="waves-effect">
+                <a href="{{Route('calendar')}}" class="waves-effect">
                   <img src="{{asset ('assetsAdmin/images/iconpack/iconspng/calendar.png')}}" alt="" style="width: 20px">
                   <span>Calendar</span>
                 </a>
               </li>
 
               <li>
-                <a href="chat.html" class="waves-effect">
+                <a href="{{Route('chat')}}" class="waves-effect">
                   <img src="{{asset ('assetsAdmin/images/iconpack/iconspng/chat.png')}}" alt="" style="width: 20px">
                   <span>Chat</span>
                 </a>
@@ -49,8 +49,8 @@
                   <span>Post</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">                  
-                  <li><a href="10addpost.html">Add Post</a></li>
-                  <li><a href="4post.html">View Post</a></li>
+                  <li><a href="{{Route('addpost')}}">Add Post</a></li>
+                  <li><a href="{{Route('viewpost')}}">View Post</a></li>
                 </ul>
               </li>
 
@@ -60,16 +60,15 @@
                   <span>Ecommerce</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
-                  <li><a href="ecommerce-products.html">Products</a></li>
+                  <li><a href="{{Route('products')}}">Products</a></li>
                   <li>
-                    <a href="ecommerce-product-detail.html">Product Detail</a>
+                    <a href="{{Route('productsdetail')}}">Product Detail</a>
                   </li>
-                  <li><a href="ecommerce-orders.html">Orders</a></li>
-                  <li><a href="ecommerce-customers.html">Customers</a></li>
-                  <li><a href="ecommerce-cart.html">Cart</a></li>
-                  <li><a href="ecommerce-checkout.html">Checkout</a></li>
-                  <li><a href="ecommerce-shops.html">Shops</a></li>
-                  <li><a href="ecommerce-add-product.html">Add Product</a></li>
+                  <li><a href="{{Route('orders')}}">Orders</a></li>
+                  <li><a href="{{Route('cart')}}">Cart</a></li>
+                  <li><a href="{{Route('checkout')}}">Checkout</a></li>
+                  <li><a href="{{Route('shops')}}">Shops</a></li>
+                  <li><a href="{{Route('addproduct')}}">Add Product</a></li>
                 </ul>
               </li>
 
@@ -83,8 +82,8 @@
                   <span>Users</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
-                  <li><a href="3user-add.html">Add Users</a></li>
-                  <li><a href="2user-list.html">View Users</a></li>
+                  <li><a href="{{Route('addusers')}}">Add Users</a></li>
+                  <li><a href="{{Route('viewusers')}}">View Users</a></li>
                 </ul>
               </li>
 
@@ -94,8 +93,8 @@
                   <span>Costumers</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
-                  <li><a href="6addcostumer.html">Add Costumers</a></li>
-                  <li><a href="3costumer.html">View Costumers</a></li>
+                  <li><a href="{{Route('addcostumers')}}">Add Costumers</a></li>
+                  <li><a href="{{Route('viewcostumers')}}">View Costumers</a></li>
                 </ul>
               </li>
 
@@ -105,8 +104,8 @@
                   <span>Page</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
-                  <li><a href="7addpage.html">Add Page</a></li>
-                  <li><a href="5page.html">View Page</a></li>
+                  <li><a href="{{Route('addpage')}}">Add Page</a></li>
+                  <li><a href="{{Route('viewpage')}}">View Page</a></li>
                 </ul>
               </li>
 
@@ -116,9 +115,9 @@
                   <span>Email</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
-                  <li><a href="email-inbox.html">Inbox</a></li>
-                  <li><a href="email-read.html">Email Read</a></li>
-                  <li><a href="email-compose.html">Email Compose</a></li>
+                  <li><a href="{{Route('inbox')}}">Inbox</a></li>
+                  <li><a href="{{Route('emailread')}}">Email Read</a></li>
+                  <li><a href="{{Route('emailcompose')}}">Email Compose</a></li>
                 </ul>
               </li>
 
