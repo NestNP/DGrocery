@@ -19,3 +19,10 @@ Route::get('/','HomeController@home' )->name('home');
 Route::get('/admin','AdminController@adminHomepage' )->name('admin');
 Route::get('/admin/calender','AdminController@adminCalender' )->name('calender');
 Route::get('/admin/addpost','AdminController@adminAddPost' )->name('addpost');
+
+Route::get('/aboutus','HomeController@about' )->name('about');
+Route::get('/contact','HomeController@contact' )->name('contact');
+Route::get('/checkout','HomeController@checkout' )->name('checkout');
+Route::get('/category','HomeController@category')->name('category');
+Route::get('/cart','HomeController@cartsummary')->name('cartsummary');
+Route::get('/wishlist','HomeController@wishlist')->name('wishlist');

@@ -962,7 +962,7 @@ select.input-sm {
   text-transform: uppercase;
   color: #fff;
   border: none;
-  background-color: #ff3366;
+  background-color: #f78031 /* #ff3366 */;
   width: calc((100% - 12px)/ 2);
   width: -moz-calc((100% - 12px)/ 2);
   width: -webkit-calc((100% - 12px)/ 2);
@@ -1833,7 +1833,7 @@ select.input-sm {
   font-size: 14px;
 }
 .site-header .setting .account li a:hover {
-  color: #ff3366;
+  color: #f78031 /* #ff3366 */;
 }
 .site-header .nav-toggle-menu {
   line-height: 49px;
@@ -2523,11 +2523,11 @@ select.input-sm {
   padding-left: 15px;
 }
 .header-opt-1 .header-nav .block-search .form-search .btn-search {
-  background-color: #ff3366;
+  background-color:  #f78031 /* #ff3366 */;
 }
 .header-opt-1 .header-nav .block-search .form-search .btn-search:hover,
 .header-opt-1 .header-nav .block-search .form-search .btn-search:focus {
-  background-color: #cc0033;
+  background-color: #ff3366;
 }
 .header-opt-2 .header-nav .block-search .form-search .btn-search {
   background-color: #f78031;
@@ -2937,8 +2937,8 @@ select.input-sm {
 }
 .header-opt-1 .header-content {
   background-color: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .header-opt-1 .header-content .logo {
   display: block;

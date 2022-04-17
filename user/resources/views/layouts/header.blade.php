@@ -84,9 +84,9 @@
                             <a data-toggle="dropdown" role="button" href="#" class="dropdown-toggle "><span>My Account</span> <i aria-hidden="true" class="fa fa-angle-down"></i></a>
                             <div class="dropdown-menu  ">
                                 <ul class="account">
-                                    <li><a href="#">Wishlist</a></li>
+                                    <li><a href="{{Route('wishlist')}}">Wishlist</a></li>
                                     <li><a href="#">My Account</a></li>
-                                    <li><a href="#">Checkout</a></li>
+                                    <li><a href="{{Route('checkout')}}">Checkout</a></li>
                                     <li><a href="#">Compare</a></li>
                                     <li><a href="#">Login/Register</a></li>
                                 </ul>
@@ -118,7 +118,7 @@
 
                             <!-- block mini cart -->
                             <div class="block-minicart dropdown">
-                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                                <a class="dropdown-toggle" href="{{Route('cartsummary')}}" role="button" data-toggle="dropdown">
                                     <span class="cart-icon"></span>
                                     <span class="counter qty">
                                         <span class="cart-text">Shopping Cart</span>
@@ -188,7 +188,7 @@
                                                     <span>Shopping bag</span>
                                                 </a> -->
                                                 <button class="btn btn-checkout" type="button" title="Check Out">
-                                                    <span>Checkout</span>
+                                                   <a class="hello" href="{{Route('checkout')}}"><span style="color:white">Checkout</span></a>
                                                 </button>
                                             </div>
                                         </div>
@@ -562,12 +562,12 @@
 
                             <ul class="ui-menu">
                                 <li class="parent parent-megamenu active">
-                                    <a href="index-2.html">Home</a>
+                                    <a href="/">Home</a>
                                     <span class="toggle-submenu"></span>
                                     <div class="megamenu drop-menu">
                                         <ul>
                                             <li class="col-md-3">
-                                                <strong class="title"><a href="#"><span>Home </span></a></strong>
+                                                <strong class="title"><a href="/"><span>Home </span></a></strong>
                                                 <ul class="list-submenu">
                                                     <li><a href="home1.html">Home page 1</a></li>
                                                     <li><a href="home2.html">Home page 2</a></li>
@@ -579,7 +579,7 @@
                                                 </ul>
                                             </li>
                                             <li class="col-md-3">
-                                                <strong class="title"><a href="#"><span>Home </span></a></strong>
+                                                <strong class="title"><a href="/"><span>Home </span></a></strong>
                                                 <ul class="list-submenu">
                                                     <li><a href="home8.html">Home page 8</a></li>
                                                     <li><a href="home9.html">Home page 9</a></li>
@@ -594,23 +594,23 @@
                                                 <strong class="title"><a href="#"><span>Page </span></a></strong>
                                                 <ul class="list-submenu">
                                                     <li><a href="Login.html">Login</a></li>
-                                                    <li><a href="About.html">About</a></li>
-                                                    <li><a href="Contact.html">Contact</a></li>
+                                                    <li><a href="{{Route('about')}}">About</a></li>
+                                                    <li><a href="{{Route('contact')}}">Contact</a></li>
                                                     <li><a href="Blog.html">Blog</a></li>
                                                     <li><a href="Blog_Post.html">Blog Post</a></li>
-                                                    <li><a href="Checkout.html">Checkout</a></li>
-                                                    <li><a href="Order.html">Order</a></li>
+                                                    <li><a href="{{Route('checkout')}}">Checkout</a></li>
+                                                    <li><a href="{{Route('cartsummary')}}">Order</a></li>
                                                 </ul>
                                             </li>
                                             <li class="col-md-3">
                                                 <strong class="title"><a href="#"><span>Page </span></a></strong>
                                                 <ul class="list-submenu">
-                                                    <li><a href="Category1.html">Category 1</a></li>
+                                                    <li><a href="{{Route('category')}}">Category 1</a></li>
                                                     <li><a href="Category2.html">Category 2</a></li>
                                                     <li><a href="Product1.html">Product 1</a></li>
                                                     <li><a href="Product2.html">Product 2</a></li>
                                                     <li><a href="Product3.html">Product 3</a></li>
-                                                    <li><a href="WishList.html">WishList </a></li>
+                                                    <li><a href="{{Route('wishlist')}}">WishList </a></li>
                                                     <li><a href="Compare.html">Compare</a></li>
                                                 </ul>
                                             </li>
@@ -831,7 +831,7 @@
                                                 <span>Shopping bag</span>
                                             </a> -->
                                             <button class="btn btn-checkout" type="button" title="Check Out">
-                                                <span>Checkout</span>
+                                                <a href="{{Route('checkout')}}"><span style="color: white">Checkout</span></a>
                                             </button>
                                         </div>
                                     </div>
@@ -908,9 +908,9 @@
                                     </ul>
                                 </div> --}}
                                 <ul class="account">
-                                    <li><a href="#">Wishlist</a></li>
+                                    <li><a href="{{Route('wishlist')}}">Wishlist</a></li>
                                     <li><a href="#">My Account</a></li>
-                                    <li><a href="#">Checkout</a></li>
+                                    <li><a href="{{Route('checkout')}}">Checkout</a></li>
                                     <li><a href="#">Compare</a></li>
                                     <li><a href="#">Login/Register</a></li>
                                 </ul>
