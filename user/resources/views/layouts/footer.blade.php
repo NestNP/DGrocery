@@ -29,7 +29,7 @@
                     <div class="links">
                     <h3 class="title">Company</h3>
                     <ul>
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="{{Route('about')}}">About Us</a></li>
                         <li><a href="#">Affiliate Program</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Terms & Conditions</a></li>
@@ -40,8 +40,8 @@
                     <div class="links">
                     <h3 class="title">My Account</h3>
                     <ul>
-                        <li><a href="#">My Order</a></li>
-                        <li><a href="#">My Wishlist</a></li>
+                        <li><a href="{{Route('cartsummary')}}">My Order</a></li>
+                        <li><a href="{{Route('wishlist')}}">My Wishlist</a></li>
                         <li><a href="#">My Credit Slip</a></li>
                         <li><a href="#">My Addresses</a></li>
                         <li><a href="#">My Account</a></li>
@@ -55,7 +55,7 @@
                         <li><a href="#">Help Center</a></li>
                         <li><a href="#">How to Buy</a></li>
                         <li><a href="#">Returns & Refunds</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="{{Route('contact')}}">Contact Us</a></li>
                     </ul>
                     </div>
                 </div>
