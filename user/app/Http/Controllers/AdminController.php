@@ -10,9 +10,9 @@ class AdminController extends Controller
     {
         return view('/admin/dashboard');
     }
-    public function adminCalender()
+    public function adminCalendar()
     {
-        return view('/admin/calender');
+        return view('/admin/calendar');
     }
     public function adminAddPost()
     {

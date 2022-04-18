@@ -17,7 +17,7 @@ use App\Http\Controllers\CalenderController;
 */
 Route::get('/','HomeController@home' )->name('home');
 Route::get('/admin','AdminController@adminHomepage' )->name('admin');
-Route::get('/admin/calender','AdminController@adminCalender' )->name('calender');
+Route::get('/admin/calendar','AdminController@adminCalendar' )->name('calendar');
 Route::get('/admin/addpost','AdminController@adminAddPost' )->name('addpost');
 
 
@@ -45,4 +45,5 @@ Route::get('/admin/viewpage','AdminController@adminviewpage' )->name('viewpage')
 Route::get('/admin/inbox','AdminController@admininbox' )->name('inbox');
 Route::get('/admin/emailread','AdminController@adminemailread' )->name('emailread');
 Route::get('/admin/emailcompose','AdminController@adminemailcompose' )->name('emailcompose');
+Route::get('/admin/cart','AdminController@admincart' )->name('cart');
 
