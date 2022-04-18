@@ -28,3 +28,32 @@
 
 
     <script src="{{asset ('assetsAdmin/js/app.js')}}"></script>
+
+    <!--tinymce js-->
+    <script src="{{asset ('assetsAdmin/libs/tinymce/tinymce.min.js')}}"></script>
+
+     <!-- Summernote js -->
+     <script src="{{asset ('assetsAdmin/libs/summernote/summernote-bs4.min.js')}}"></script>
+
+     <script src="{{asset ('assetsAdmin/js/pages/form-advanced.init.js')}}"></script>
+     <script src="{{asset ('assetsAdmin/libs/select2/js/select2.min.js')}}"></script>
+
+     
+    <!-- init js -->
+    <script src="{{asset ('assetsAdmin/js/pages/form-editor.init.js')}}"></script>
+    <script src="{{asset ('assetsAdmin/js/app.js')}}"></script>
+
+     <!-- tryy -->
+     <!-- JAVASCRIPT -->
+     <script src="{{asset ('assetsAdmin/libs/jquery/jquery.min.js')}}"></script>
+     <script src="{{asset ('assetsAdmin/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    
+     <script src="{{asset ('assetsAdmin/libs/select2/js/select2.min.js')}}"></script>
+
+ 
+     <script src="{{asset ('assetsAdmin/js/pages/form-advanced.init.js')}}"></script>
+ 
+     <script src="{{asset ('assetsAdmin/js/app.js')}}"></script>
+
+
+ 
