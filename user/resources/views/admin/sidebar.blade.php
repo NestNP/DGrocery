@@ -4,7 +4,7 @@
             <div class="dropdown">
               <div class="user-img">
                 <img
-                  src="assetsAdmin/images/users/avatar-7.jpg"
+                  src="{{asset ('assetsAdmin/images/users/avatar-7.jpg')}}"
                   alt=""
                   class="rounded-circle"
                 />
@@ -45,7 +45,7 @@
 
               <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                 <img src="assetsAdmin/images/iconpack/dripicons/SVG/article.svg" style="width: 19px; margin-bottom: 0px;" alt="">
+                 <img src="{{asset ('assetsAdmin/images/iconpack/dripicons/SVG/article.svg')}}" style="width: 19px; margin-bottom: 0px;" alt="">
                   <span>Post</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">                  
@@ -75,7 +75,7 @@
               <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
   <img
-                      src="assetsAdmin/images/iconpack/dripicons/SVG/user.svg"
+                      src="{{asset ('assetsAdmin/images/iconpack/dripicons/SVG/user.svg')}}"
                       alt=""
                       style="width: 15px; margin-bottom: 4px"
                   />
@@ -89,7 +89,7 @@
 
               <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                   <img src="assetsAdmin/images/iconpack/dripicons/SVG/user-group.svg" style="width: 19px; margin-bottom: 4px;" alt="">
+                   <img src="{{asset ('assetsAdmin/images/iconpack/dripicons/SVG/user-group.svg')}}" style="width: 19px; margin-bottom: 4px;" alt="">
                   <span>Costumers</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
@@ -100,7 +100,7 @@
 
               <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                  <img src="assetsAdmin/images/iconpack/dripicons/SVG/document-new.svg" style="width: 18px; margin-bottom: 4px;" alt="">  
+                  <img src="{{asset ('assetsAdmin/images/iconpack/dripicons/SVG/document-new.svg')}}" style="width: 18px; margin-bottom: 4px;" alt="">  
                   <span>Page</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
