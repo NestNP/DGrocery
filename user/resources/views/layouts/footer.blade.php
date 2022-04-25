@@ -101,23 +101,19 @@
 
         <div class="payment-methods">
             <div class="block-title">
-                Accepted Payment Methods
+                Accepted Payment Methods:
             </div>
             <div class="block-content">
-
-                    <img alt="payment" src="assets/images/media/index1/payment5.png">
-                    <img alt="payment" src="assets/images/media/index1/payment6.png" height="10%" width="10%">
-                    <img alt="payment" src="assets/images/media/index1/payment11.png" height="10%" width="10%">
-                    <img alt="payment" src="assets/images/media/index1/payment12.png" height="10%" width="10%">
-                    <img alt="payment" src="assets/images/media/index1/payment13.png" height="10%" width="10%">
-                    <img alt="payment" src="assets/images/media/index1/payment14.png" height="10%" width="10%">
-
-
+                    <img alt="payment" src="assets/images/media/index1/payment5.png" height="10%" width="10%">
+                    <img style="margin-left: 30px" alt="payment" src="assets/images/media/index1/payment6.png" height="10%" width="10%">
+                    <img style="margin-left: 30px" alt="payment" src="assets/images/media/index1/payment11.png" height="10%" width="10%">
+                    <img style="margin-left: 30px" alt="payment" src="assets/images/media/index1/payment12.png" height="10%" width="10%">
+                    <img style="margin-left: 30px" alt="payment" src="assets/images/media/index1/payment13.png" height="10%" width="10%">
+                    <img style="margin-left: 30px" alt="payment" src="assets/images/media/index1/payment14.png" height="10%" width="10%">
             </div>
         </div>
 
         <div class="footer-links">
-
 
             <ul class="links">
                 <li><strong class="title">HOT SEARCHED KEYWORDS:</strong></li>

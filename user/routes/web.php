@@ -34,7 +34,7 @@ Route::get('/admin/productsdetail','AdminController@adminProductsdetail' )->name
 Route::get('/admin/orders','AdminController@adminorders' )->name('orders');
 Route::get('/admin/viewcostumers','AdminController@adminviewcostumers' )->name('viewcostumers');
 Route::get('/admin/chat','AdminController@adminchat' )->name('chat');
-Route::get('/admin/checkout','AdminController@admincheckout' )->name('checkout');
+Route::get('/admin/checkout','AdminController@admincheckout' )->name('acheckout');
 Route::get('/admin/shops','AdminController@adminshops' )->name('shops');
 Route::get('/admin/addproduct','AdminController@adminaddproduct' )->name('addproduct');
 Route::get('/admin/addusers','AdminController@adminaddusers' )->name('addusers');

@@ -489,7 +489,7 @@
                                     <div class="product-item  product-item-opt-1 ">
                                         <div class="product-item-info">
                                             <div class="product-item-photo">
-                                                <a class="product-item-img" href="#"><img alt="product name" src="{{asset('assets/images/media/index1/sellers1.jpg')}}" height="200" width="200"></a>
+                                                <a class="product-item-img" href="#"><img alt="product name" src="{{asset('assets/images/media/index1/sellers1.jpg')}}"></a>
                                                 <div class="product-item-actions">
                                                     <a class="btn btn-wishlist" href="#"><span>wishlist</span></a>
                                                     <a class="btn btn-compare" href="#"><span>compare</span></a>
