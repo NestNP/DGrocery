@@ -5,7 +5,7 @@
         <!-- Block  Breadcrumb-->
 
         <ol class="breadcrumb no-hide">
-            <li><a href="#">Home </a></li>
+            <li><a href="/">Home </a></li>
             <li class="active">About Us</li>
         </ol><!-- Block  Breadcrumb-->
 
@@ -68,10 +68,7 @@
                                 <a href="#">Dress</a>
                                 <span class="toggle-submenu"></span>
                                 <ul class="subcategory">
-                                    <li>
-                                        <a href="#">subcategory 1</a>
-
-                                    </li>
+                                    <li><a href="#">subcategory 1</a></li>
                                     <li><a href="#">subcategory 1</a></li>
                                     <li><a href="#">subcategory 1</a></li>
                                     <li><a href="#">subcategory 1</a></li>

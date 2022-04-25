@@ -30,8 +30,8 @@
 
                     <!-- nav-left -->
                     <ul class="nav-left" >
-                        <li ><span><i class="fa fa-phone" aria-hidden="true"></i>980-1231749</span></li>
-                        <li ><span><i class="fa fa-envelope" aria-hidden="true"></i> Contact us today !</span></li>
+                        <li><span><i class="fa fa-phone" aria-hidden="true"></i>980-1231749</span></li>
+                        <li><span><i class="fa fa-envelope" aria-hidden="true"></i> Contact us today !</span></li>
                     {{--     <li class="dropdown switcher  switcher-currency">
                             <a data-toggle="dropdown" role="button" href="#" class="dropdown-toggle switcher-trigger"><span>USD</span> <i aria-hidden="true" class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu switcher-options ">

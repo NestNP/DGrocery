@@ -5,7 +5,7 @@
         <!-- Block  Breadcrumb-->
 
         <ol class="breadcrumb no-hide">
-            <li><a href="#">Home    </a></li>
+            <li><a href="/">Home    </a></li>
             <li class="active">Your shopping cart</li>
         </ol><!-- Block  Breadcrumb-->
 
