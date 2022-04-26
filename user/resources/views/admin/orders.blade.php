@@ -5,7 +5,7 @@
         <div class="page-content">
 
             <!-- start page title -->
-            <div class="page-title-box">
+            <div class="page-title-box" style="background-color: #cc5500;">
                 <div class="container-fluid">
                  <div class="row align-items-center">
                      <div class="col-sm-6">
