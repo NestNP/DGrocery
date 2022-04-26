@@ -3,9 +3,9 @@
 
 @include ('admin/script')
 <div class="main-content">
-        <div class="page-content">
+        <div class="page-content" >
           <!-- start page title -->
-          <div class="page-title-box">
+          <div class="page-title-box" style="background-color: #cc5500;">
             <div class="container-fluid">
               <div class="row align-items-center">
                 <div class="col-sm-6">
@@ -13,12 +13,11 @@
                     <h4>Dashboard</h4>
                     <ol class="breadcrumb m-0">
                       <li class="breadcrumb-item">
-                        <a href="javascript: void(0);">Morvin</a>
+                        <a href="javascript: void(0);">Daily Grocery</a>
                       </li>
                       <li class="breadcrumb-item">
                         <a href="javascript: void(0);">Dashboard</a>
                       </li>
-                      <li class="breadcrumb-item active">Dashboard</li>
                     </ol>
                   </div>
                 </div>
