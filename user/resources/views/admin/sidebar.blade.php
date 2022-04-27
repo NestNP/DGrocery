@@ -64,10 +64,10 @@
                   <li>
                     <a href="{{Route('productsdetail')}}">Product Detail</a>
                   </li>
-                  <li><a href="{{Route('orders')}}">Orders</a></li>
-                  <li><a href="{{Route('cart')}}">Cart</a></li>
+                  <li><a href="{{Route('Adminorders')}}">Orders</a></li>
+                  <li><a href="{{Route('adminCart')}}">Cart</a></li>
                   <li><a href="{{Route('checkout')}}">Checkout</a></li>
-                  <li><a href="{{Route('shops')}}">Shops</a></li>
+              
                   <li><a href="{{Route('addproduct')}}">Add Product</a></li>
                 </ul>
               </li>
@@ -116,7 +116,7 @@
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
                   <li><a href="{{Route('inbox')}}">Inbox</a></li>
-                  <li><a href="{{Route('emailread')}}">Email Read</a></li>
+                 
                   <li><a href="{{Route('emailcompose')}}">Email Compose</a></li>
                 </ul>
               </li>

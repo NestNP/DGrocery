@@ -3,6 +3,23 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+// admin routes
+use App\Http\Controllers\admin\Admindashboard;
+use App\Http\Controllers\admin\AdminCalendar;
+use App\Http\Controllers\admin\AdminAddPost;
+use App\Http\Controllers\admin\AdminViewPost;
+use App\Http\Controllers\admin\AdminProducts;
+use App\Http\Controllers\admin\AdminProductsDetail;
+use App\Http\Controllers\admin\AdminOrders;
+use App\Http\Controllers\admin\AdminViewCostumers;
+use App\Http\Controllers\admin\AdminCart;
+use App\Http\Controllers\admin\AdminChat;
+use App\Http\Controllers\admin\AdminCheckout;
+use App\Http\Controllers\admin\AdminShops;
+use App\Http\Controllers\admin\AdminAddProduct;
+use App\Http\Controllers\admin\AdminAddUsers;
+
+
 use App\Http\Controllers\CalenderController;
 
 /*
@@ -16,11 +33,6 @@ use App\Http\Controllers\CalenderController;
 |
 */
 Route::get('/','HomeController@home' )->name('home');
-Route::get('/admin','AdminController@adminHomepage' )->name('admin');
-Route::get('/admin/calendar','AdminController@adminCalendar' )->name('calendar');
-Route::get('/admin/addpost','AdminController@adminAddPost' )->name('addpost');
-
-
 Route::get('/aboutus','HomeController@about' )->name('about');
 Route::get('/contact','HomeController@contact' )->name('contact');
 Route::get('/checkout','HomeController@checkout' )->name('checkout');
@@ -28,22 +40,46 @@ Route::get('/category','HomeController@category')->name('category');
 Route::get('/cart','HomeController@cartsummary')->name('cartsummary');
 Route::get('/wishlist','HomeController@wishlist')->name('wishlist');
 
-Route::get('/admin/viewpost','AdminController@adminViewPost' )->name('viewpost');
-Route::get('/admin/products','AdminController@adminProducts' )->name('products');
-Route::get('/admin/productsdetail','AdminController@adminProductsdetail' )->name('productsdetail');
-Route::get('/admin/orders','AdminController@adminorders' )->name('orders');
-Route::get('/admin/viewcostumers','AdminController@adminviewcostumers' )->name('viewcostumers');
-Route::get('/admin/chat','AdminController@adminchat' )->name('chat');
-Route::get('/admin/checkout','AdminController@admincheckout' )->name('acheckout');
-Route::get('/admin/shops','AdminController@adminshops' )->name('shops');
-Route::get('/admin/addproduct','AdminController@adminaddproduct' )->name('addproduct');
-Route::get('/admin/addusers','AdminController@adminaddusers' )->name('addusers');
-Route::get('/admin/viewusers','AdminController@adminviewusers' )->name('viewusers');
-Route::get('/admin/addcostumers','AdminController@adminaddcostumers' )->name('addcostumers');
-Route::get('/admin/addpage','AdminController@adminaddpage' )->name('addpage');
-Route::get('/admin/viewpage','AdminController@adminviewpage' )->name('viewpage');
-Route::get('/admin/inbox','AdminController@admininbox' )->name('inbox');
-Route::get('/admin/emailread','AdminController@adminemailread' )->name('emailread');
-Route::get('/admin/emailcompose','AdminController@adminemailcompose' )->name('emailcompose');
-Route::get('/admin/cart','AdminController@admincart' )->name('cart');
+// admin page routes 
 
+Route::get('/admin','admin\Admindashboard@adminHomepage' )->name('admin');
+Route::get('/admin/calendar','admin\AdminCalender@adminCalendar' )->name('calendar');
+Route::get('/admin/addpost','admin\AdminViewPost@adminAddPost' )->name('addpost');
+Route::get('/admin/viewpost','admin\AdminViewPost@adminViewPost' )->name('viewpost');
+Route::get('/admin/productsdetail','AdminProducts@adminProductsdetail' )->name('productsdetail');
+Route::get('/admin/orders','AdminOrders@adminorders' )->name('Adminorders');
+Route::get('/admin/chat','AdminChat@adminchat' )->name('chat');
+Route::get('/admin/products','admin\AdminProducts@adminProducts' )->name('products');
+Route::get('/admin/addproduct','AdminProducts@adminaddproduct' )->name('addproduct');
+Route::get('/admin/addusers','AdminUsers@adminaddusers' )->name('addusers');
+Route::get('/admin/viewusers','AdminUsers@adminviewusers' )->name('viewusers');
+
+Route::get('/admin/viewcostumers','AdminViewCostumers@adminviewcostumers' )->name('viewcostumers');
+Route::get('/admin/addcostumers','AdminViewCostumers@adminaddcostumers' )->name('addcostumers');
+Route::get('/admin/addpage','AdminPage@adminaddpage' )->name('addpage');
+Route::get('/admin/viewpage','AdminPage@adminviewpage' )->name('viewpage');
+Route::get('/admin/inbox','AdminEmail@admininbox' )->name('inbox');
+Route::get('/admin/emailcompose','AdminEmail@adminemailcompose' )->name('emailcompose');
+
+Route::get('/admin/cart','AdminCart@admincart' )->name('adminCart');
+
+// purano routes
+
+// sakeko routes
+// Route::get('/admin','AdminController@adminHomepage' )->name('admin');
+// Route::get('/admin/calendar','AdminController@adminCalendar' )->name('calendar');
+// Route::get('/admin/addpost','AdminController@adminAddPost' )->name('addpost');
+// Route::get('/admin/viewpost','AdminController@adminViewPost' )->name('viewpost');
+// Route::get('/admin/products','AdminController@adminProducts' )->name('products');
+// Route::get('/admin/productsdetail','AdminController@adminProductsdetail' )->name('productsdetail');
+// Route::get('/admin/orders','AdminController@adminorders' )->name('orders');
+// Route::get('/admin/viewcostumers','AdminController@adminviewcostumers' )->name('viewcostumers');
+// Route::get('/admin/chat','AdminController@adminchat' )->name('chat');
+// Route::get('/admin/addproduct','AdminController@adminaddproduct' )->name('addproduct');
+// Route::get('/admin/addusers','AdminController@adminaddusers' )->name('addusers');
+// Route::get('/admin/addpage','AdminController@adminaddpage' )->name('addpage');
+// Route::get('/admin/viewpage','AdminController@adminviewpage' )->name('viewpage');
+// Route::get('/admin/inbox','AdminController@admininbox' )->name('inbox');
+
+// Route::get('/admin/emailcompose','AdminController@adminemailcompose' )->name('emailcompose');
+// Route::get('/admin/cart','AdminController@admincart' )->name('cart');
