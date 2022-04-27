@@ -5,7 +5,7 @@
 <div class="main-content">
         <div class="page-content">
           <!-- start page title -->
-          <div class="page-title-box">
+          <div class="page-title-box" style="background-color: #cc5500;">
             <div class="container-fluid">
               <div class="row align-items-center">
                 <div class="col-sm-6">
@@ -98,7 +98,7 @@
                                       </div>
                                       <div class="align-self-center me-3">
                                         <img
-                                          src="assets/images/users/avatar-2.jpg"
+                                          src="{{asset('assetsAdmin/images/users/avatar-2.jpg')}}"
                                           class="rounded-circle avatar-xs"
                                           alt=""
                                         />
@@ -170,7 +170,7 @@
                                       </div>
                                       <div class="align-self-center me-3">
                                         <img
-                                          src="assets/images/users/avatar-3.jpg"
+                                          src="{{asset('assetsAdmin/images/users/avatar-3.jpg')}}"
                                           class="rounded-circle avatar-xs"
                                           alt=""
                                         />
@@ -200,7 +200,7 @@
                                       </div>
                                       <div class="align-self-center me-3">
                                         <img
-                                          src="assets/images/users/avatar-4.jpg"
+                                          src="{{asset('assetsAdmin/images/users/avatar-4.jpg')}}"
                                           class="rounded-circle avatar-xs"
                                           alt=""
                                         />
@@ -262,7 +262,7 @@
                                       </div>
                                       <div class="align-self-center me-3">
                                         <img
-                                          src="assets/images/users/avatar-6.jpg"
+                                          src="{{asset('assetsAdmin/images/users/avatar-6.jpg')}}"
                                           class="rounded-circle avatar-xs"
                                           alt=""
                                         />
@@ -655,7 +655,7 @@
                             <div class="conversation-list">
                               <div class="media">
                                 <img
-                                  src="assets/images/users/avatar-2.jpg"
+                                  src="{{asset('assetsAdmin/images/users/avatar-2.jpg')}}"
                                   class="rounded-circle avatar-xs"
                                   alt=""
                                 />
@@ -749,7 +749,7 @@
                                 </div>
 
                                 <img
-                                  src="assets/images/users/avatar-3.jpg"
+                                  src="{{asset('assetsAdmin/images/users/avatar-3.jpg')}}"
                                   class="rounded-circle avatar-xs"
                                   alt=""
                                 />
@@ -761,7 +761,7 @@
                             <div class="conversation-list">
                               <div class="media">
                                 <img
-                                  src="assets/images/users/avatar-2.jpg"
+                                  src="{{asset('assetsAdmin/images/users/avatar-2.jpg')}}"
                                   class="rounded-circle avatar-xs"
                                   alt=""
                                 />
@@ -812,7 +812,7 @@
                             <div class="conversation-list">
                               <div class="media">
                                 <img
-                                  src="assets/images/users/avatar-2.jpg"
+                                  src="{{asset('assetsAdmin/images/users/avatar-2.jpg')}}"
                                   class="rounded-circle avatar-xs"
                                   alt=""
                                 />
@@ -902,7 +902,7 @@
                                 </div>
 
                                 <img
-                                  src="assets/images/users/avatar-3.jpg"
+                                  src="{{asset('assetsAdmin/images/users/avatar-3.jpg')}}"
                                   class="rounded-circle avatar-xs"
                                   alt=""
                                 />

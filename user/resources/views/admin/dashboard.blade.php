@@ -262,7 +262,7 @@
                         <li class="activity-list activity-border">
                           <div class="activity-icon avatar-sm">
                             <img
-                              src="assets/images/users/avatar-7.jpg"
+                              src="{{asset('assetsAdmin/images/users/avatar-7.jpg')}}"
                               class="avatar-sm rounded-circle"
                               alt=""
                             />
@@ -361,7 +361,7 @@
                         <li class="activity-list activity-border">
                           <div class="activity-icon avatar-sm">
                             <img
-                              src="assets/images/users/avatar-7.jpg"
+                              src="{{asset('assetsAdmin/images/users/avatar-7.jpg')}}"
                               class="avatar-sm rounded-circle"
                               alt=""
                             />
@@ -535,7 +535,7 @@
                             <div class="row align-items-center mb-5">
                               <div class="col-md-4">
                                 <img
-                                  src="assets/images/product/img-3.png"
+                                  src="{{asset('assetsAdmin/images/product/img-3.png')}}"
                                   class="img-fluid me-3"
                                   alt=""
                                 />
@@ -579,7 +579,7 @@
                             <div class="row align-items-center mb-5">
                               <div class="col-md-4">
                                 <img
-                                  src="assets/images/product/img-5.png"
+                                  src="{{asset('assetsAdmin/images/product/img-5.png')}}"
                                   class="img-fluid me-3"
                                   alt=""
                                 />
@@ -623,7 +623,7 @@
                             <div class="row align-items-center mb-5">
                               <div class="col-md-4">
                                 <img
-                                  src="assets/images/product/img-1.png"
+                                  src="{{asset('assetsAdmin/images/product/img-1.png')}}"
                                   class="img-fluid me-3"
                                   alt=""
                                 />
@@ -904,7 +904,7 @@
                               <td>#2356</td>
                               <td>
                                 <img
-                                  src="assets/images/product/img-7.png"
+                                  src="{{asset('assetsAdmin/images/product/img-7.png')}}"
                                   width="42"
                                   class="me-3"
                                   alt=""
@@ -925,7 +925,7 @@
                               <td>#2564</td>
                               <td>
                                 <img
-                                  src="assets/images/product/img-8.png"
+                                  src="{{asset('assetsAdmin/images/product/img-8.png')}}"
                                   width="42"
                                   class="me-3"
                                   alt=""
@@ -946,7 +946,7 @@
                               <td>#2125</td>
                               <td>
                                 <img
-                                  src="assets/images/product/img-10.png"
+                                  src="{{asset('assetsAdmin/images/product/img-10.png')}}"
                                   width="42"
                                   class="me-3"
                                   alt=""
@@ -967,7 +967,7 @@
                               <td>#8587</td>
                               <td>
                                 <img
-                                  src="assets/images/product/img-11.png"
+                                  src="{{asset('assetsAdmin/images/product/img-11.png')}}"
                                   width="42"
                                   class="me-3"
                                   alt=""
@@ -988,7 +988,7 @@
                               <td>#2354</td>
                               <td>
                                 <img
-                                  src="assets/images/product/img-12.png"
+                                  src="{{asset('assetsAdmin/images/product/img-12.png')}}"
                                   width="42"
                                   class="me-3"
                                   alt=""
