@@ -87,3 +87,26 @@
         <script src="{{asset('assetsAdmin/js/pages/ecommerce-datatables.init.js')}}"></script>
 
         <script src="{{asset('assetsAdmin/js/app.js')}}"></script>
+<!-- JAVASCRIPT -->
+<script src="{{asset('assetsAdmin/libs/jquery/jquery.min.js')}}"></script>
+<script src="{{asset('assetsAdmin/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('assetsAdmin/libs/metismenu/metisMenu.min.js')}}"></script>
+<script src="{{asset('assetsAdmin/libs/simplebar/simplebar.min.js')}}"></script>
+<script src="{{asset('assetsAdmin/libs/node-waves/waves.min.js')}}"></script>
+
+
+       <!--tinymce js-->
+<script src="{{asset('assetsAdmin/libs/tinymce/tinymce.min.js')}}"></script>
+
+<!-- init js -->
+<script src="{{asset('assetsAdmin/js/pages/form-editor.init.js')}}"></script>
+
+<script src="{{asset('assetsAdmin/js/app.js')}}"></script>
+
+<script src="{{asset('assetsAdmin/libs/jquery/jquery.min.js')}}"></script>
+<script src="{{asset('assetsAdmin/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('assetsAdmin/libs/metismenu/metisMenu.min.js')}}"></script>
+<script src="{{asset('assetsAdmin/libs/simplebar/simplebar.min.js')}}"></script>
+<script src="{{asset('assetsAdmin/libs/node-waves/waves.min.js')}}"></script>
+
+<script src="{{asset('assetsAdmin/js/app.js')}}"></script>
