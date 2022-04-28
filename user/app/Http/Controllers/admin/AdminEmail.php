@@ -7,11 +7,11 @@ use Illuminate\Http\Request;
 
 class AdminEmail extends Controller
 {
-     public function admininbox()
+     public function adminInbox()
     {
         return view('/admin/inbox');
     }
-    public function adminemailcompose()
+    public function adminEmailcompose()
     {
         return view('/admin/emailcompose');
     }
