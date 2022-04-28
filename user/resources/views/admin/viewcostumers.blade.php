@@ -2,7 +2,7 @@
 @include ('admin/sidebar')
 
 @include ('admin/script')
-<div class="main-content">
+<div class="main-content">      
 
             <div class="page-content">
 
