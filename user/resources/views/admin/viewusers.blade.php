@@ -2,10 +2,12 @@
 @include ('admin/sidebar')
 
 @include ('admin/script')
+{{$users->Price}}
+<!-- echo $users; -->
+
 <div class="main-content">
 
             <div class="page-content">
-
                 <!-- start page title -->
                 <div class="page-title-box" style="background-color: #cc5500;">
                     <div class="container-fluid">

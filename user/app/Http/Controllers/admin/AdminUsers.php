@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\admin;
-
+use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
@@ -13,6 +13,7 @@ class AdminUsers extends Controller
     }
     public function adminviewusers()
     {
-        return view('/admin/viewusers');
+        $users = DB::select('select * from products');
+        return view('/admin/viewusers',['users'=>$users]);
     }
 }
