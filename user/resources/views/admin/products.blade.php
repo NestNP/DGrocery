@@ -33,580 +33,326 @@
 
         <div class="container-fluid">
 
-            <div class="page-content-wrapper">
-
-            
+                <div class="page-content-wrapper">
 
 
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4">
-                    
-                        
 
-                        <div class="card">
 
-                            <div class="card-body">
-
-                                <h4 class="header-title">Filters</h4>
-
-                                <div class="border p-3 rounded mt-4">
-
-                                    <h5 class="font-size-16">Search</h5>
-
-                                    <div class="search-box me-2 mt-3">
-                                        <div class="position-relative">
-                                            <input type="text" class="form-control" placeholder="Search...">
-                                            <i class="ti-search search-icon"></i>
-                                        </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div>
+                                        <a href="javascript:void(0);" class="btn btn-success mb-2"><i class="mdi mdi-plus me-2"></i> Add Customer</a>
                                     </div>
-
+                                    <div class="table-responsive mt-3">
+                                        <table class="table table-centered datatable dt-responsive nowrap " style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                                            <thead class="thead-light">
+                                                <tr>
+                                                    <th style="width: 20px;">
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="customercheck">
+                                                            <label class="form-check-label" for="customercheck">&nbsp;</label>
+                                                        </div>
+                                                    </th>
+                                                    <th>Customer</th>
+                                                    <th>Email</th>
+                                                    <th>Phone</th>
+                                                    <th>Wallet Balance</th>
+                                                    <th>Joining Date</th>
+                                                    <th style="width: 120px;">Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="customercheck1">
+                                                            <label class="form-check-label" for="customercheck1">&nbsp;</label>
+                                                        </div>
+                                                    </td>
+                                                    
+                                                    <td>Carolyn Harvey</td>
+                                                    <td>CarolynHarvey@rhyta.com</td>
+                                                    <td>580-464-4694</td>
+                                                    
+                                                    <td>
+                                                        $ 3245
+                                                    </td>
+                                                    <td>
+                                                        06 Apr, 2020
+                                                    </td>
+                                                    <td id="tooltip-container0">
+                                                        <a href="javascript:void(0);" class="me-3 text-primary" data-bs-container="#tooltip-container0" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                                        <a href="javascript:void(0);" class="text-danger" data-bs-container="#tooltip-container0" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="mdi mdi-trash-can font-size-18"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="customercheck2">
+                                                            <label class="form-check-label" for="customercheck2">&nbsp;</label>
+                                                        </div>
+                                                    </td>
+                                                    
+                                                    <td>Angelyn Hardin</td>
+                                                    <td>AngelynHardin@dayrep.com</td>
+                                                    <td>913-248-2690</td>
+                                                    
+                                                    <td>
+                                                        $ 2435
+                                                    </td>
+                                                    <td>
+                                                        05 Apr, 2020
+                                                    </td>
+                                                    <td id="tooltip-container1">
+                                                        <a href="javascript:void(0);" class="me-3 text-primary" data-bs-container="#tooltip-container1" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                                        <a href="javascript:void(0);" class="text-danger" data-bs-container="#tooltip-container1" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="mdi mdi-trash-can font-size-18"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="customercheck3">
+                                                            <label class="form-check-label" for="customercheck3">&nbsp;</label>
+                                                        </div>
+                                                    </td>
+                                                    
+                                                    <td>Carrie Thompson</td>
+                                                    <td>CarrieThompson@rhyta.com</td>
+                                                    <td>734-819-9286</td>
+                                                    
+                                                    <td>
+                                                        $ 2653
+                                                    </td>
+                                                    <td>
+                                                        04 Apr, 2020
+                                                    </td>
+                                                    <td id="tooltip-container2">
+                                                        <a href="javascript:void(0);" class="me-3 text-primary" data-bs-container="#tooltip-container2" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                                        <a href="javascript:void(0);" class="text-danger" data-bs-container="#tooltip-container2" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="mdi mdi-trash-can font-size-18"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="customercheck4">
+                                                            <label class="form-check-label" for="customercheck4">&nbsp;</label>
+                                                        </div>
+                                                    </td>
+                                                    
+                                                    <td>Kathleen Haller</td>
+                                                    <td>KathleenHaller@dayrep.com</td>
+                                                    <td>313-742-3333</td>
+                                                    
+                                                    <td>
+                                                        $ 2135
+                                                    </td>
+                                                    <td>
+                                                        03 Apr, 2020
+                                                    </td>
+                                                    <td id="tooltip-container3">
+                                                        <a href="javascript:void(0);" class="me-3 text-primary" data-bs-container="#tooltip-container3" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                                        <a href="javascript:void(0);" class="text-danger" data-bs-container="#tooltip-container3" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="mdi mdi-trash-can font-size-18"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="customercheck5">
+                                                            <label class="form-check-label" for="customercheck5">&nbsp;</label>
+                                                        </div>
+                                                    </td>
+                                                    
+                                                    <td>Martha Beasley</td>
+                                                    <td>MarthaBeasley@teleworm.us</td>
+                                                    <td>301-330-5745</td>
+                                                    
+                                                    <td>
+                                                        $ 2698
+                                                    </td>
+                                                    <td>
+                                                        02 Apr, 2020
+                                                    </td>
+                                                    <td id="tooltip-container4">
+                                                        <a href="javascript:void(0);" class="me-3 text-primary" data-bs-container="#tooltip-container4" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                                        <a href="javascript:void(0);" class="text-danger" data-bs-container="#tooltip-container4" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="mdi mdi-trash-can font-size-18"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="customercheck6">
+                                                            <label class="form-check-label" for="customercheck6">&nbsp;</label>
+                                                        </div>
+                                                    </td>
+                                                    
+                                                    <td>Kathryn Hudson</td>
+                                                    <td>KathrynHudson@armyspy.com</td>
+                                                    <td>414-453-5725</td>
+                                                    
+                                                    <td>
+                                                        $ 2758
+                                                    </td>
+                                                    <td>
+                                                        02 Apr, 2020
+                                                    </td>
+                                                    <td id="tooltip-container5">
+                                                        <a href="javascript:void(0);" class="me-3 text-primary" data-bs-container="#tooltip-container5" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                                        <a href="javascript:void(0);" class="text-danger" data-bs-container="#tooltip-container5" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="mdi mdi-trash-can font-size-18"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="customercheck7">
+                                                            <label class="form-check-label" for="customercheck7">&nbsp;</label>
+                                                        </div>
+                                                    </td>
+                                                    
+                                                    <td>Robert Bott</td>
+                                                    <td>RobertBott@armyspy.com</td>
+                                                    <td>712-237-9899</td>
+                                                    
+                                                    <td>
+                                                        $ 2836
+                                                    </td>
+                                                    <td>
+                                                        01 Apr, 2020
+                                                    </td>
+                                                    <td id="tooltip-container6">
+                                                        <a href="javascript:void(0);" class="me-3 text-primary" data-bs-container="#tooltip-container6" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                                        <a href="javascript:void(0);" class="text-danger" data-bs-container="#tooltip-container6" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="mdi mdi-trash-can font-size-18"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="customercheck8">
+                                                            <label class="form-check-label" for="customercheck8">&nbsp;</label>
+                                                        </div>
+                                                    </td>
+                                                    
+                                                    <td>Mary McDonald</td>
+                                                    <td>MaryMcDonald@armyspy.com</td>
+                                                    <td>317-510-25554</td>
+                                                    
+                                                    <td>
+                                                        $ 3245
+                                                    </td>
+                                                    <td>
+                                                        31 Mar, 2020
+                                                    </td>
+                                                    <td id="tooltip-container7">
+                                                        <a href="javascript:void(0);" class="me-3 text-primary" data-bs-container="#tooltip-container7" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                                        <a href="javascript:void(0);" class="text-danger" data-bs-container="#tooltip-container7" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="mdi mdi-trash-can font-size-18"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="customercheck9">
+                                                            <label class="form-check-label" for="customercheck9">&nbsp;</label>
+                                                        </div>
+                                                    </td>
+                                                    
+                                                    <td>Keith Rainey</td>
+                                                    <td>KeithRainey@jourrapide.com</td>
+                                                    <td>214-712-1810</td>
+                                                    
+                                                    <td>
+                                                        $ 3125
+                                                    </td>
+                                                    <td>
+                                                        30 Mar, 2020
+                                                    </td>
+                                                    <td id="tooltip-container8">
+                                                        <a href="javascript:void(0);" class="me-3 text-primary" data-bs-container="#tooltip-container8" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                                        <a href="javascript:void(0);" class="text-danger" data-bs-container="#tooltip-container8" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="mdi mdi-trash-can font-size-18"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="customercheck10">
+                                                            <label class="form-check-label" for="customercheck10">&nbsp;</label>
+                                                        </div>
+                                                    </td>
+                                                    
+                                                    <td>Anthony Russo</td>
+                                                    <td>AnthonyRusso@jourrapide.com</td>
+                                                    <td>412-371-8864</td>
+                                                    
+                                                    <td>
+                                                        $ 2456
+                                                    </td>
+                                                    <td>
+                                                        30 Mar, 2020
+                                                    </td>
+                                                    <td id="tooltip-container9">
+                                                        <a href="javascript:void(0);" class="me-3 text-primary" data-bs-container="#tooltip-container9" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                                        <a href="javascript:void(0);" class="text-danger" data-bs-container="#tooltip-container9" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="mdi mdi-trash-can font-size-18"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="customercheck11">
+                                                            <label class="form-check-label" for="customercheck11">&nbsp;</label>
+                                                        </div>
+                                                    </td>
+                                                    
+                                                    <td>Donna Betz</td>
+                                                    <td>DonnaBetz@jourrapide.com</td>
+                                                    <td>626-583-5779</td>
+                                                    
+                                                    <td>
+                                                        $ 3423
+                                                    </td>
+                                                    <td>
+                                                        29 Mar, 2020
+                                                    </td>
+                                                    <td id="tooltip-container10">
+                                                        <a href="javascript:void(0);" class="me-3 text-primary" data-bs-container="#tooltip-container10" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                                        <a href="javascript:void(0);" class="text-danger" data-bs-container="#tooltip-container10" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="mdi mdi-trash-can font-size-18"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input" id="customercheck12">
+                                                            <label class="form-check-label" for="customercheck12">&nbsp;</label>
+                                                        </div>
+                                                    </td>
+                                                    
+                                                    <td>Angie Andres</td>
+                                                    <td>AngieAndres@armyspy.com</td>
+                                                    <td>213-494-4527</td>
+                                                    
+                                                    <td>
+                                                        $ 3245
+                                                    </td>
+                                                    <td>
+                                                        28 Apr, 2020
+                                                    </td>
+                                                    <td id="tooltip-container11">
+                                                        <a href="javascript:void(0);" class="me-3 text-primary" data-bs-container="#tooltip-container11" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                                        <a href="javascript:void(0);" class="text-danger" data-bs-container="#tooltip-container11" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="mdi mdi-trash-can font-size-18"></i></a>
+                                                    </td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
-
-
-                                <div class="border p-3 rounded mt-4">
-                                        <h5 class="font-size-16">Categories</h5>
-
-
-                                    <div id="accordion" class="custom-accordion categories-accordion">
-                                        <div class="categories-group-card">
-                                            <a href="#collapseOne" class="categories-group-list collapsed" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">
-                                                <i class="ti-desktop font-size-16 align-middle me-2"></i> Electronic
-                                                <i class="mdi mdi-minus float-end accor-plus-icon"></i>
-                                            </a>
-                    
-                                            <div id="collapseOne" class="collapse" data-parent="#accordion">
-                                                <div>
-                                                    <ul class="list-unstyled categories-list mb-0">
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Mobile</a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Cemera</a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Mobile accessories</a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Computers</a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Laptops</a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Speakers</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="categories-group-card">
-                                            <a href="#collapseTwo" class="categories-group-list" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseTwo">
-                                                <i class="ti-archive font-size-16 align-middle me-2"></i> Furniture
-                                                <i class="mdi mdi-minus float-end accor-plus-icon"></i>
-                                            </a>
-                                            <div id="collapseTwo" class="collapse show" data-parent="#accordion">
-                                                <div>
-                                                    <ul class="list-unstyled categories-list mb-0">
-                                                        <li class="active"><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Chairs </a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Tables</a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Beds </a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Seating</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="categories-group-card">
-                                            <a href="#collapseThree" class="categories-group-list collapsed" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
-                                                <i class="mdi mdi-pinwheel-outline font-size-16 align-middle me-2"></i> Baby & Kids
-                                                <i class="mdi mdi-minus float-end accor-plus-icon"></i>
-                                            </a>
-                                            <div id="collapseThree" class="collapse" data-parent="#accordion">
-                                                <div>
-                                                    <ul class="list-unstyled categories-list mb-0">
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Clothing</a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Footwear</a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Toys</a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Baby care</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="categories-group-card">
-                                            <a href="#collapseFour" class="categories-group-list collapsed" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
-                                                <i class="mdi mdi-dumbbell font-size-16 align-middle me-2"></i> Fitness
-                                                <i class="mdi mdi-minus float-end accor-plus-icon"></i>
-                                            </a>
-                                            <div id="collapseFour" class="collapse" data-parent="#accordion">
-                                                <div>
-                                                    <ul class="list-unstyled categories-list mb-0">
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Gym equipment</a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Yoga mat</a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Dumbbells</a></li>
-                                                        <li><a href="#"><i class="mdi mdi-circle-medium me-1"></i> Protein supplements</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="border p-3 rounded mt-4">
-                                    <h5 class="font-size-16">Multi Range</h5>
-
-                                    <div class="mt-4">
-                                        <div class="form-check mt-2">
-                                            <input type="radio" id="multirange" name="multirange1" class="form-check-input" checked>
-                                            <label class="custom-control-label" for="multirange"> All</label>
-                                        </div>
-                                        <div class="form-check mt-2">
-                                            <input type="radio" id="multirange1" name="multirange1" class="form-check-input">
-                                            <label class="custom-control-label" for="multirange1"> $1 - $10</label>
-                                        </div>
-                                        <div class="form-check mt-2">
-                                            <input type="radio" id="multirange2" name="multirange1" class="form-check-input">
-                                            <label class="custom-control-label" for="multirange2"> $10 - $100</label>
-                                        </div>
-                                        <div class="form-check mt-2">
-                                            <input type="radio" id="multirange3" name="multirange1" class="form-check-input">
-                                            <label class="custom-control-label" for="multirange3"> $100 - $500</label>
-                                        </div>
-                                        <div class="form-check mt-2">
-                                            <input type="radio" id="multirange4" name="multirange1" class="form-check-input">
-                                            <label class="custom-control-label" for="multirange4"> $500</label>
-                                        </div>
-                                    </div>
-                            </div>
-
-                                <div class="border p-3 rounded mt-4">
-                                        <h5 class="font-size-16 mb-4">Price</h5>
-
-                                        <input type="text" id="pricerange">
-                                </div>
-
-
-
-                            
-                                    <div class="border p-3 rounded mt-4">
-                                            <h5 class="font-size-16 mb-0 custom-accordion"><a href="#collapseExample1" class="text-dark d-block" data-bs-toggle="collapse" >Discount <i class="mdi mdi-minus float-end accor-plus-icon"></i></a></h5>
-
-                                            <div class="collapse show" id="collapseExample1">
-
-                                                <div class="mt-4">
-                                                    <div class="form-check mt-2">
-                                                        <input type="radio" id="productdiscountRadio6" name="productdiscountRadio1" class="form-check-input">
-                                                        <label class="custom-control-label" for="productdiscountRadio6">50% or more</label>
-                                                    </div>
-                                                    <div class="form-check mt-2">
-                                                        <input type="radio" id="productdiscountRadio5" name="productdiscountRadio1" class="form-check-input">
-                                                        <label class="custom-control-label" for="productdiscountRadio5">40% or more</label>
-                                                    </div>
-                                                    <div class="form-check mt-2">
-                                                        <input type="radio" id="productdiscountRadio4" name="productdiscountRadio1" class="form-check-input">
-                                                        <label class="custom-control-label" for="productdiscountRadio4">30% or more</label>
-                                                    </div>
-                                                    <div class="form-check mt-2">
-                                                        <input type="radio" id="productdiscountRadio3" name="productdiscountRadio1" class="form-check-input">
-                                                        <label class="custom-control-label" for="productdiscountRadio3">25% or more</label>
-                                                    </div>
-                                                    <div class="form-check mt-2">
-                                                        <input type="radio" id="productdiscountRadio2" name="productdiscountRadio1" class="form-check-input">
-                                                        <label class="custom-control-label" for="productdiscountRadio2">10% or more</label>
-                                                    </div>
-                                                    <div class="form-check mt-2">
-                                                        <input type="radio" id="productdiscountRadio1" name="productdiscountRadio1" class="form-check-input">
-                                                        <label class="custom-control-label" for="productdiscountRadio1">Less than 10%</label>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                    </div>
-
-                                    <div class="border p-3 rounded mt-4">
-                                            <h5 class="font-size-16 mb-0 custom-accordion"><a href="#collapseExample3" class="text-dark d-block" data-bs-toggle="collapse">Customer Rating <i class="mdi mdi-minus float-end accor-plus-icon"></i></a></h5>
-
-                                            <div class="collapse show" id="collapseExample3">
-
-                                                <div class="mt-4">
-                                                    <div class="form-check mt-2">
-                                                        <input type="radio" id="productratingRadio5" name="productratingRadio1" class="form-check-input">
-                                                        <label class="custom-control-label" for="productratingRadio5">5 <i class="mdi mdi-star text-warning"></i>  & Above</label>
-                                                    </div>
-                                                    <div class="form-check mt-2">
-                                                        <input type="radio" id="productratingRadio1" name="productratingRadio1" class="form-check-input">
-                                                        <label class="custom-control-label" for="productratingRadio1">4 <i class="mdi mdi-star text-warning"></i>  & Above</label>
-                                                    </div>
-                                                    <div class="form-check mt-2">
-                                                        <input type="radio" id="productratingRadio2" name="productratingRadio1" class="form-check-input">
-                                                        <label class="custom-control-label" for="productratingRadio2">3 <i class="mdi mdi-star text-warning"></i>  & Above</label>
-                                                    </div>
-                                                    <div class="form-check mt-2">
-                                                        <input type="radio" id="productratingRadio3" name="productratingRadio1" class="form-check-input">
-                                                        <label class="custom-control-label" for="productratingRadio3">2 <i class="mdi mdi-star text-warning"></i>  & Above</label>
-                                                    </div>
-                                                    <div class="form-check mt-2">
-                                                        <input type="radio" id="productratingRadio4" name="productratingRadio1" class="form-check-input">
-                                                        <label class="custom-control-label" for="productratingRadio4">1 <i class="mdi mdi-star text-warning"></i></label>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
                             </div>
                         </div>
+                    </div>
+                    <!-- end row -->
 
-
-                        <div class="col-lg-9">
-                                    <div class="row">
-                                        <div class="col-xl-4 col-sm-6">
-                                            <div class="card">
-                                            <div class="card-body">
-                                                <div class="product-img">
-                                                    <div class="product-ribbon  bg-primary">
-                                                        25% Off
-                                                    </div>
-                                                
-                                                    <img src="assets/images/product/img-7.png" alt="" class="img-fluid mx-auto d-block">
-                                                </div>
-
-                                            
-                                                
-                                                <div class="text-center">
-
-                                                    <a href="" class="text-dark">
-                                                        <h5 class="font-size-18">Home & Office Chair Green</h5>
-                                                    </a>
-
-                                                    <h4 class="mt-3 mb-0">$200 <span class="font-size-14 text-muted me-2"><del>$240</del></span></h4>
-
-                                                    <div class="mt-3">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star-half text-warning"></i>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-xl-4 col-sm-6">
-                                            <div class="card">
-                                            <div class="card-body">
-                                                <div class="product-img">
-
-                                                
-                                                    <img src="assets/images/product/img-8.png" alt="" class="img-fluid mx-auto d-block">
-                                                </div>
-                                                
-                                                <div class="text-center">
-                                                    <a href="" class="text-dark">
-                                                        <h5 class="font-size-18">Home & Office Chair Crime</h5>
-                                                    </a>
-
-                                                    <h4 class="mt-3 mb-0">$280</h4>
-
-                                                    <div class="mt-3">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-xl-4 col-sm-6">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <div class="product-img">
-
-                                                        <div class="product-ribbon  bg-primary">
-                                                            25% Off
-                                                        </div>
-                                                    
-                                                    
-                                                        <img src="assets/images/product/img-9.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                    
-                                                    <div class="text-center">
-                                                        <a href="" class="text-dark">
-                                                            <h5 class="font-size-18">Home & Office Chair White</h5>
-                                                        </a>
-
-                                                        <h4 class="mt-3 mb-0">$380 <span class="font-size-14 text-muted me-2"><del>$420</del></span></h4>
-
-                                                        <div class="mt-3">
-                                                            <ul class="list-inline">
-                                                                <li class="list-inline-item">
-                                                                    <i class="mdi mdi-star text-warning"></i>
-                                                                    <i class="mdi mdi-star text-warning"></i>
-                                                                    <i class="mdi mdi-star text-warning"></i>
-                                                                    <i class="mdi mdi-star text-warning"></i>
-                                                                    <i class="mdi mdi-star-half text-warning"></i>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-xl-4 col-sm-6">
-                                            <div class="card">
-                                            <div class="card-body">
-                                                <div class="product-img">
-                                                
-                                                    <img src="assets/images/product/img-10.png" alt="" class="img-fluid mx-auto d-block">
-                                                </div>
-                                                
-                                                <div class="text-center">
-                                                    <a href="" class="text-dark">
-                                                        <h5 class="font-size-18">Home & Office Chair Coffee</h5>
-                                                    </a>
-
-                                                    <h4 class="mt-3 mb-0">$520</h4>
-
-                                                    <div class="mt-3">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-xl-4 col-sm-6">
-                                            <div class="card">
-                                            <div class="card-body">
-                                                <div class="product-img">
-
-                                                    <div class="product-ribbon  bg-primary">
-                                                        25% Off
-                                                    </div>
-                                                
-                                                    <img src="assets/images/product/img-11.png" alt="" class="img-fluid mx-auto d-block">
-                                                </div>
-                                                
-                                                <div class="text-center">
-                                                    <a href="" class="text-dark">
-                                                        <h5 class="font-size-18">Home & Office Chair Blue</h5>
-                                                    </a>
-
-                                                    <h4 class="mt-3 mb-0">$280 <span class="font-size-14 text-muted me-2"><del>$320</del></span></h4>
-
-                                                    <div class="mt-3">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star-half text-warning"></i>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-xl-4 col-sm-6">
-                                            <div class="card">
-                                            <div class="card-body">
-                                                <div class="product-img">
-                                                
-                                                
-                                                    <img src="assets/images/product/img-12.png" alt="" class="img-fluid mx-auto d-block">
-                                                    
-                                                </div>
-                                                
-                                                <div class="text-center">
-                                                    <a href="" class="text-dark">
-                                                        <h5 class="font-size-18">Home & Office Chair Black</h5>
-                                                    </a>
-
-                                                    <h4 class="mt-3 mb-0">$330 </h4>
-
-                                                    <div class="mt-3">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-xl-4 col-sm-6">
-                                            <div class="card">
-                                            <div class="card-body">
-                                                <div class="product-img">
-                                                
-                                                    <img src="assets/images/product/img-14.png" alt="" class="img-fluid mx-auto d-block">
-                                                </div>
-                                                
-                                                <div class="text-center">
-                                                    <a href="" class="text-dark">
-                                                        <h5 class="font-size-18">Home & Office Chair Coffee</h5>
-                                                    </a>
-
-                                                    <h4 class="mt-3 mb-0">$430</h4>
-
-                                                    <div class="mt-3">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
-
-                                    
-
-                                        <div class="col-xl-4 col-sm-6">
-                                            <div class="card">
-                                            <div class="card-body">
-                                                <div class="product-img">
-                                                
-                                                
-                                                    <img src="assets/images/product/img-13.png" alt="" class="img-fluid mx-auto d-block">
-                                                    
-                                                </div>
-                                                
-                                                <div class="text-center">
-                                                    <a href="" class="text-dark">
-                                                        <h5 class="font-size-18">Home & Office Chair Black</h5>
-                                                    </a>
-
-                                                    <h4 class="mt-3 mb-0">$130 </h4>
-
-                                                    <div class="mt-3">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-xl-4 col-sm-6">
-                                            <div class="card">
-                                            <div class="card-body">
-                                                <div class="product-img">
-
-                                                    <div class="product-ribbon  bg-primary">
-                                                        25% Off
-                                                    </div>
-                                                
-                                                    <img src="assets/images/product/img-6.png" alt="" class="img-fluid mx-auto d-block">
-                                                </div>
-                                                
-                                                <div class="text-center">
-                                                    <a href="" class="text-dark">
-                                                        <h5 class="font-size-18">Home & Office Chair Dark</h5>
-                                                    </a>
-
-                                                    <h4 class="mt-3 mb-0">$220 <span class="font-size-14 text-muted me-2"><del>$320</del></span></h4>
-
-                                                    <div class="mt-3">
-                                                        <ul class="list-inline">
-                                                            <li class="list-inline-item">
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star text-warning"></i>
-                                                                <i class="mdi mdi-star-half text-warning"></i>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-xl-12">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <div class="row">
-                                                        <div class="col-sm-6">
-                                                            <div>
-                                                                <p class="mb-sm-0 mt-2">Page <span class="font-weight-bold">2</span> Of <span class="font-weight-bold">113</span></p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="float-sm-end">
-                                                                <ul class="pagination pagination-rounded mb-sm-0">
-                                                                    <li class="page-item disabled">
-                                                                        <a href="#" class="page-link"><i class="mdi mdi-chevron-left"></i></a>
-                                                                    </li>
-                                                                    <li class="page-item">
-                                                                        <a href="#" class="page-link">1</a>
-                                                                    </li>
-                                                                    <li class="page-item active">
-                                                                        <a href="#" class="page-link">2</a>
-                                                                    </li>
-                                                                    <li class="page-item">
-                                                                        <a href="#" class="page-link">3</a>
-                                                                    </li>
-                                                                    <li class="page-item">
-                                                                        <a href="#" class="page-link">4</a>
-                                                                    </li>
-                                                                    <li class="page-item">
-                                                                        <a href="#" class="page-link">5</a>
-                                                                    </li>
-                                                                    <li class="page-item">
-                                                                        <a href="#" class="page-link"><i class="mdi mdi-chevron-right"></i></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        
-                                    </div>
-
-                                    
-                                </div>
-
-                                
                 </div>
-                <!-- end row -->
 
-            </div>
 
-            
         </div> <!-- container-fluid -->
     </div>
     <!-- End Page-content -->
