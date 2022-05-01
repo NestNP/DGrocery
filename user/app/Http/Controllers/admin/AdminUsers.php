@@ -13,7 +13,7 @@ class AdminUsers extends Controller
     }
     public function adminviewusers()
     {
-        $users = DB::select('select * from products');
+        $users = DB::select('select * from users');
         return view('/admin/viewusers',['users'=>$users]);
     }
 }

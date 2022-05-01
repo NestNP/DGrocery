@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\admin;
-
+use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
@@ -9,7 +9,9 @@ class AdminProducts extends Controller
 {
     public function adminProducts()
     {
-        return view('/admin/products');
+        $products = DB::select('select * from products');
+
+        return view('/admin/products',['products'=>$products]);
     }
     public function adminproductsdetail()
     {
