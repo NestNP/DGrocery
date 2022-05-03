@@ -110,3 +110,26 @@
 <script src="{{asset('assetsAdmin/libs/node-waves/waves.min.js')}}"></script>
 
 <script src="{{asset('assetsAdmin/js/app.js')}}"></script>
+
+<!-- JAVASCRIPT -->
+<script src="{{asset('assetsAdmin/libs/jquery/jquery.min.js')}}"></script>
+<script src="{{asset('assetsAdmin/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('assetsAdmin/libs/metismenu/metisMenu.min.js')}}"></script>
+<script src="{{asset('assetsAdmin/libs/simplebar/simplebar.min.js')}}"></script>
+<script src="{{asset('assetsAdmin/libs/node-waves/waves.min.js')}}"></script>
+
+<!-- twitter-bootstrap-wizard js -->
+<script src="{{asset('assetsAdmin/libs/twitter-bootstrap-wizard/jquery.bootstrap.wizard.min.js')}}"></script>
+
+<script src="{{asset('assetsAdmin/libs/twitter-bootstrap-wizard/prettify.js')}}"></script>
+
+<!-- select 2 plugin -->
+<script src="{{asset('assetsAdmin/libs/select2/js/select2.min.js')}}"></script>
+
+<!-- dropzone plugin -->
+<script src="{{asset('assetsAdmin/libs/dropzone/min/dropzone.min.js')}}"></script>
+
+<!-- init js -->
+<script src="{{asset('assetsAdmin/js/pages/ecommerce-add-product.init.js')}}"></script>
+
+<script src="{{asset('assetsAdmin/js/app.js')}}"></script>
