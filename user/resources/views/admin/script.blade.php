@@ -133,3 +133,17 @@
 <script src="{{asset('assetsAdmin/js/pages/ecommerce-add-product.init.js')}}"></script>
 
 <script src="{{asset('assetsAdmin/js/app.js')}}"></script>
+{{-- tryy --}}
+<link rel="shortcut icon" href="{{asset('assetsAdmin/images/favicon.ico')}}">
+
+<link rel="stylesheet" href="{{asset('assetsAdmin/libs/twitter-bootstr/prettify.css')}}">
+
+<link href="{{asset('assetsAdmin/libs/select2/css/select2.min.css')}}" rel="stylesheet" type="text/css" />
+
+<link href="{{asset('assetsAdmin/libs/dropzone/min/dropzone.min.css')}}" rel="stylesheet" type="text/css" />
+
+<link href="{{asset('assetsAdmin/css/bootstrap.min.css" id="bootstrap-style')}}" rel="stylesheet" type="text/css" />
+
+<link href="{{asset('assetsAdmin/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+
+<link href="{{asset('assetsAdmin/css/app.min.css" id="app-style')}}" rel="stylesheet" type="text/css" />
