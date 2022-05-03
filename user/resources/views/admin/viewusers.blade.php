@@ -83,14 +83,7 @@
                                                             </div>
                                                         </td>
                                                         
-                                                        <td>{{ $user->Product_name}}</td>
-                                                        
-                                                        
-                                                        <td>{{ $user->Manufacturer_Brand}}</td>
-                                                        <td>Rs.{{ $user->Price}}</td>
-                                                        <td>{{ $user->Category}}</td>
-                                                        <td>{{ $user->quantity}}</td>
-                                                        
+                                               
                                                         
                                                      
                                                         <td id="tooltip-container0">
