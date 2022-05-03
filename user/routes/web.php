@@ -19,6 +19,7 @@ use App\Http\Controllers\admin\AdminShops;
 use App\Http\Controllers\admin\AdminAddProduct;
 use App\Http\Controllers\admin\AdminAddUsers;
 use App\Http\Controllers\admin\AdminEmail;
+use App\Http\Controllers\admin\AdminProductAction;
 
 use App\Http\Controllers\CalenderController;
 
@@ -60,8 +61,8 @@ Route::get('/admin/addpage','admin\AdminPage@adminaddpage' )->name('addpage');
 Route::get('/admin/viewpage','admin\AdminPage@adminviewpage' )->name('viewpage');
 Route::get('/admin/inbox','admin\AdminEmail@adminInbox' )->name('inbox');
 Route::get('/admin/emailcompose','admin\AdminEmail@adminEmailcompose' )->name('emailcompose');
-
 Route::get('/admin/cart','admin\AdminCart@admincart' )->name('adminCart');
+Route::get('/admin/editproduct','admin\AdminProductAction@admineditproduct' )->name('admineditproduct');
 
 // purano routes
 

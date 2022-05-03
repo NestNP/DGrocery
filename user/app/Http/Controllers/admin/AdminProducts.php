@@ -21,4 +21,5 @@ class AdminProducts extends Controller
     {
         return view('/admin/addproduct');
     }
+
 }
