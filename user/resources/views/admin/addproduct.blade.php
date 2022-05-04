@@ -122,6 +122,10 @@
                                                     <label class="form-label" for="productdesc">Product Description</label>
                                                     <textarea class="form-control" id="productdesc" rows="5"></textarea>
                                                 </div>
+                                                <div class="mb-3">
+                                                    <label class="form-label" for="productdesc">Product Details</label>
+                                                    <textarea class="form-control" id="productdesc" rows="5"></textarea>
+                                                </div>
                                             </form>
 
                                             <!-- <ul class="pager wizard twitter-bs-wizard-pager-link">
@@ -130,6 +134,7 @@
             
                                         <!-- </div>
                                         <div class="tab-pane" id="product-img"> -->
+                                        <!-- Product -->
                                             <h4 class="header-title">Product Images</h4>
                                             <p class="card-title-desc">Upload product image</p>
                                             <form action="/" method="post" class="dropzone" style="display:flex; flex-direction:column; align-items:center; justify-content:center; ">
@@ -145,6 +150,23 @@
                                                     <h4>Drop files here or click to upload.</h4>
                                                 </div>
                                             </form>
+                                            <!-- featured photo -->
+                                            <h4 class="header-title">Featured Product Image</h4>
+                                            <p class="card-title-desc">Upload featured image</p>
+                                            <form action="/" method="post" class="dropzone" style="display:flex; flex-direction:column; align-items:center; justify-content:center; ">
+                                                <div class="fallback">
+                                                    <input name="file" type="file" multiple />
+                                                </div>
+                
+                                                <div class="dz-message needsclick" style="display:flex; flex-direction:column; align-items:center; justify-content:center; ">
+                                                    <div class="mb-3">
+                                                        <i class="display-4 text-muted mdi mdi-cloud-download-outline"></i>
+                                                    </div>
+                                                    
+                                                    <h4>Drop files here or click to upload.</h4>
+                                                </div>
+                                            </form>
+                                        <!-- photo end -->
                                             <!-- <ul class="pager wizard twitter-bs-wizard-pager-link">
                                                 <li class="previous"><a href="#"><i class="mdi mdi-arrow-left mr-1"></i> Basic Info</a></li>
                                                 <li class="next"><a href="#">Meta Data <i class="mdi mdi-arrow-right ml-1"></i></a></li>
