@@ -93,16 +93,16 @@
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-md-6">
-                                                        <div class="mb-3">
-                                                            <label class="control-label">Category</label>
-                                                            <select class="form-control select2">
-                                                                <option>Select</option>
-                                                                <option value="EL">Electronic</option>
-                                                                <option value="FA">Fashion</option>
-                                                                <option value="FI">Fitness</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
+                                                                        <div class="mb-3">
+                                                                            <label class="control-label">Category</label>
+                                                                            <select class="form-control select2">
+                                                                                <option>Select</option>
+                                                                                <option value="EL">Electronic</option>
+                                                                                <option value="FA">Fashion</option>
+                                                                                <option value="FI">Fitness</option>
+                                                                            </select>
+                                                                        </div>
+                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="mb-3">
                                                             <label class="control-label">Features</label>
@@ -132,12 +132,12 @@
                                         <div class="tab-pane" id="product-img"> -->
                                             <h4 class="header-title">Product Images</h4>
                                             <p class="card-title-desc">Upload product image</p>
-                                            <form action="/" method="post" class="dropzone">
+                                            <form action="/" method="post" class="dropzone" style="display:flex; flex-direction:column; align-items:center; justify-content:center; ">
                                                 <div class="fallback">
                                                     <input name="file" type="file" multiple />
                                                 </div>
                 
-                                                <div class="dz-message needsclick">
+                                                <div class="dz-message needsclick" style="display:flex; flex-direction:column; align-items:center; justify-content:center; ">
                                                     <div class="mb-3">
                                                         <i class="display-4 text-muted mdi mdi-cloud-download-outline"></i>
                                                     </div>
@@ -219,7 +219,13 @@
         </div>
     </footer>
 </div>
-@include ('admin/script')
+<!-- @include ('admin/script') -->
+<script src="{{asset ('assetsAdmin/libs/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset ('assetsAdmin/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset ('assetsAdmin/libs/metismenu/metisMenu.min.js')}}"></script>
+    <script src="{{asset ('assetsAdmin/libs/simplebar/simplebar.min.js')}}"></script>
+    <script src="{{asset ('assetsAdmin/libs/node-waves/waves.min.js')}}"></script>
+
 
         </body>
 </html>

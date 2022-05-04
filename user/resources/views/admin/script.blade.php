@@ -124,7 +124,7 @@
 <script src="{{asset('assetsAdmin/libs/twitter-bootstrap-wizard/prettify.js')}}"></script>
 
 <!-- select 2 plugin -->
-<script src="{{asset('assetsAdmin/libs/select2/js/select2.min.js')}}"></script>
+<!-- <script src="{{asset('assetsAdmin/libs/select2/js/select2.min.js')}}"></script> -->
 
 <!-- dropzone plugin -->
 <script src="{{asset('assetsAdmin/libs/dropzone/min/dropzone.min.js')}}"></script>
