@@ -9,6 +9,7 @@ use App\Http\Controllers\admin\AdminCalendar;
 use App\Http\Controllers\admin\AdminAddPost;
 use App\Http\Controllers\admin\AdminViewPost;
 use App\Http\Controllers\admin\AdminProducts;
+use App\Http\Controllers\admin\DeleteProduct;
 use App\Http\Controllers\admin\AdminProductsDetail;
 use App\Http\Controllers\admin\AdminOrders;
 use App\Http\Controllers\admin\AdminViewCostumers;
@@ -51,6 +52,8 @@ Route::get('/admin/productsdetail','admin\AdminProducts@adminProductsdetail' )->
 Route::get('/admin/orders','admin\AdminOrders@adminorders' )->name('Adminorders');
 Route::get('/admin/chat','admin\AdminChat@adminchat' )->name('chat');
 Route::get('/admin/products','admin\AdminProducts@adminProducts' )->name('products');
+Route::get('/admin/productsdelete/{id}','admin\DeleteProduct@admindeleteproduct' )->name('deleteproduct');
+
 Route::get('/admin/addproduct','admin\AdminProducts@adminaddproduct' )->name('addproduct');
 Route::get('/admin/addusers','admin\AdminUsers@adminaddusers' )->name('addusers');
 Route::get('/admin/viewusers','admin\AdminUsers@adminviewusers' )->name('viewusers');
