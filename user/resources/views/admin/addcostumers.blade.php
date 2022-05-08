@@ -205,6 +205,7 @@
                       document.write(new Date().getFullYear());
                     </script>
                     © Daily Grocery.
+                    © Nepal ECommerce .
                   </div>
                   <div class="col-sm-6">
                    

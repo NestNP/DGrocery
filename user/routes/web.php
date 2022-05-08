@@ -66,6 +66,7 @@ Route::get('/admin/inbox','admin\AdminEmail@adminInbox' )->name('inbox');
 Route::get('/admin/emailcompose','admin\AdminEmail@adminEmailcompose' )->name('emailcompose');
 Route::get('/admin/cart','admin\AdminCart@admincart' )->name('adminCart');
 Route::get('/admin/editproduct','admin\AdminProductAction@admineditproduct' )->name('admineditproduct');
+Route::get('/admin/addcateogory','admin\Adminaddcateogory@adminaddcateogory' )->name('addcateogory');
 
 // purano routes
 

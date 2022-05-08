@@ -69,6 +69,7 @@
                   <li><a href="{{Route('checkout')}}">Checkout</a></li>
               
                   <li><a href="{{Route('addproduct')}}">Add Product</a></li>
+                  <li><a href="{{Route('addcateogory')}}">Add Cateogory</a></li>
                 </ul>
               </li>
 
