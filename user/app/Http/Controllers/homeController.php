@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\DB;
 
 use Illuminate\Http\Request;
 
@@ -8,7 +9,8 @@ class homeController extends Controller
 {
     public function home()
     {
-    return view('/layouts/home');
+        $cat = DB::select('select * from category');
+        return view('/layouts/home',['cat'=>$cat]);
     }
     public function about()
     {
