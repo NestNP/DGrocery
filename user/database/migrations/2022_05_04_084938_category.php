@@ -4,6 +4,9 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
+// namespace App\Http\Controllers\admin\DB; 
+// use Illuminate\Support\Facades\DB;
+
 class Category extends Migration
 {
     /**
