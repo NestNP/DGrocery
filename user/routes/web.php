@@ -68,7 +68,9 @@ Route::get('/admin/cart','admin\AdminCart@admincart' )->name('adminCart');
 Route::get('/admin/editproduct','admin\AdminProductAction@admineditproduct' )->name('admineditproduct');
 Route::get('/admin/addcateogory','admin\Adminaddcateogory@adminaddcateogory' )->name('addcateogory');
 Route::get('insert','admin\Adminaddcateogory@insertform');
-Route::post('create','admin\Adminaddcateogory@insert');    
+Route::post('create','admin\Adminaddcateogory@insert'); 
+Route::get('insert','admin\Adminproducts@insertproductform');
+Route::post('create','admin\Adminproducts@insertproduct');   
 
 // purano routes
 

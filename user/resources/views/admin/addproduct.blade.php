@@ -42,52 +42,38 @@
                                 
                                 <div id="addproduct-nav-pills-wizard" class="twitter-bs-wizard">
                                     <ul class="twitter-bs-wizard-nav">
-                                        {{-- <li class="nav-item add-product-border">
-                                            <a href="#basic-info" class="nav-link" data-toggle="tab">
-                                                <span class="step-number">Add Product</span>
-                                            </a>
-                                        </li> --}}
-                                        <!-- <li class="nav-item add-product-border">
-                                            <a href="#product-img" class="nav-link" data-toggle="tab">
-                                                <span class="step-number">02. Product Img</span>
-                                            </a>
-                                        </li>
-                                        
-                                        <li class="nav-item">
-                                            <a href="#metadata" class="nav-link" data-toggle="tab">
-                                                <span class="step-number">03. Meta Data</span>
-                                            </a>
-                                        </li> -->
                                     </ul>
+
                                     <div class="tab-content twitter-bs-wizard-tab-content">
                                         <div >
                                             <h4 class="header-title">Basic Information</h4>
                                             <p class="card-title-desc">Fill all information below</p>
 
-                                            <form>
+                                            <form action="/create" method="POST">
+                                                @csrf
                                                 <div class="mb-3">
                                                     <label class="form-label" for="productname">Product Name</label>
-                                                    <input id="productname" name="productname" type="text" class="form-control">
+                                                    <input id="productname" name="Product_name" type="text" class="form-control">
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-lg-4">
                                                         
                                                         <div class="mb-3">
                                                             <label class="form-label" for="manufacturername">Manufacturer Name</label>
-                                                            <input id="manufacturername" name="manufacturername" type="text" class="form-control">
+                                                            <input id="manufacturername" name="Manufacturer_name" type="text" class="form-control">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4">
                                                         
                                                         <div class="mb-3">
                                                             <label class="form-label" for="manufacturerbrand">Manufacturer Brand</label>
-                                                            <input id="manufacturerbrand" name="manufacturerbrand" type="text" class="form-control">
+                                                            <input id="manufacturerbrand" name="Manufacturer_Brand" type="text" class="form-control">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4">
                                                         <div class="mb-3">
                                                             <label class="form-label" for="price">Price</label>
-                                                            <input id="price" name="price" type="text" class="form-control">
+                                                            <input id="price" name="Price" type="text" class="form-control">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -97,9 +83,9 @@
                                                                             <label class="control-label">Category</label>
                                                                             <select class="form-control select2">
                                                                                 <option>Select</option>
-                                                                                <option value="EL">Electronic</option>
-                                                                                <option value="FA">Fashion</option>
-                                                                                <option value="FI">Fitness</option>
+                                                                                <option value="EL" name="Category">Electronic</option>
+                                                                                <option value="FA" name="Category">Fashion</option>
+                                                                                <option value="FI" name="Category">Fitness</option>
                                                                             </select>
                                                                         </div>
                                                      </div>
@@ -108,11 +94,11 @@
                                                             <label class="control-label">Features</label>
             
                                                             <select class="select2 form-control select2-multiple" multiple="multiple" data-placeholder="Choose ...">
-                                                                <option value="TO">Touchscreen</option>
-                                                                <option value="CF">Call Function</option>
-                                                                <option value="NO" selected>Notifications</option>
-                                                                <option value="FI" selected>Fitness</option>
-                                                                <option value="OU">Outdoor</option>
+                                                                <option value="TO" name="Features">Touchscreen</option>
+                                                                <option value="CF" name="Features">Call Function</option>
+                                                                <option value="NO" name="Features" selected>Notifications</option>
+                                                                <option value="FI" name="Features" selected>Fitness</option>
+                                                                <option value="OU" name="Features">Outdoor</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -120,26 +106,22 @@
 
                                                 <div class="mb-3">
                                                     <label class="form-label" for="productdesc">Product Description</label>
-                                                    <textarea class="form-control" id="productdesc" rows="5"></textarea>
+                                                    <textarea class="form-control" id="productdesc" rows="5" name="Product_description"></textarea>
                                                 </div>
                                                 <div class="mb-3">
                                                     <label class="form-label" for="productdesc">Product Details</label>
-                                                    <textarea class="form-control" id="productdesc" rows="5"></textarea>
+                                                    <textarea class="form-control" id="productdesc" rows="5" name="Products_details" ></textarea>
                                                 </div>
-                                            </form>
-
-                                            <!-- <ul class="pager wizard twitter-bs-wizard-pager-link">
-                                                <li class="next"><a href="#"> Product Img <i class="mdi mdi-arrow-right ml-1"></i></a></li>
-                                            </ul> -->
-            
-                                        <!-- </div>
-                                        <div class="tab-pane" id="product-img"> -->
-                                        <!-- Product -->
+                                                <div class="mb-3">
+                                                    <label class="form-label" for="quantity">Quantity</label>
+                                                    <input id="quantity" name="quantity" type="number" class="form-control">
+                                                </div>
+                                     
                                             <h4 class="header-title">Product Images</h4>
                                             <p class="card-title-desc">Upload product image</p>
-                                            <form action="/" method="post" class="dropzone" style="display:flex; flex-direction:column; align-items:center; justify-content:center; ">
+                                           
                                                 <div class="fallback">
-                                                    <input name="file" type="file" multiple />
+                                                    <input name="Product_image" type="file" multiple />
                                                 </div>
                 
                                                 <div class="dz-message needsclick" style="display:flex; flex-direction:column; align-items:center; justify-content:center; ">
@@ -149,13 +131,12 @@
                                                     
                                                     <h4>Drop files here or click to upload.</h4>
                                                 </div>
-                                            </form>
-                                            <!-- featured photo -->
+                                           
                                             <h4 class="header-title">Featured Product Image</h4>
                                             <p class="card-title-desc">Upload featured image</p>
-                                            <form action="/" method="post" class="dropzone" style="display:flex; flex-direction:column; align-items:center; justify-content:center; ">
+                                           
                                                 <div class="fallback">
-                                                    <input name="file" type="file" multiple />
+                                                    <input name="Featured_image" type="file" multiple />
                                                 </div>
                 
                                                 <div class="dz-message needsclick" style="display:flex; flex-direction:column; align-items:center; justify-content:center; ">
@@ -165,47 +146,15 @@
                                                     
                                                     <h4>Drop files here or click to upload.</h4>
                                                 </div>
-                                            </form>
-                                        <!-- photo end -->
-                                            <!-- <ul class="pager wizard twitter-bs-wizard-pager-link">
-                                                <li class="previous"><a href="#"><i class="mdi mdi-arrow-left mr-1"></i> Basic Info</a></li>
-                                                <li class="next"><a href="#">Meta Data <i class="mdi mdi-arrow-right ml-1"></i></a></li>
-                                            </ul> -->
-                                        <!-- </div>
-                                        <div class="tab-pane" id="metadata"> -->
-                                            <h4 class="header-title">Meta Data</h4>
-                                            <p class="card-title-desc">Fill all information below</p>
 
-                                            <form>
-                                                <div class="row">
-                                                    <div class="col-sm-6">
-                                                        <div class="mb-3">
-                                                            <label class="form-label" for="metatitle">Meta title</label>
-                                                            <input id="metatitle" name="metatitle" type="text" class="form-control">
-                                                        </div>
-                                                        
-                                                    </div>
-            
-                                                    <div class="col-sm-6">
-                                                        <div class="mb-3">
-                                                            <label class="form-label" for="metakeywords">Meta Keywords</label>
-                                                            <input id="metakeywords" name="metakeywords" type="text" class="form-control">
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                               
 
-                                                <div class="mb-3">
-                                                    <label class="form-label" for="metadescription">Meta Description</label>
-                                                    <textarea class="form-control" id="metadescription" rows="5"></textarea>
-                                                </div>
-                                            </form>
-
-                                            <ul class="pager wizard twitter-bs-wizard-pager-link">
-                                                <!-- <li class="previous"><a href="#"><i class="mdi mdi-arrow-left mr-1"></i> Product Img</a></li> -->
-                                                <li class="float-end"><a href="#">Save Changes <i class="mdi mdi-arrow-right ml-1"></i></a></li>
-                                            </ul>
-
-                                           
+                                                <div class="float-end d-none d-sm-block" style="margin: 10px auto">
+                                                    <input type="submit" class="btn btn-success" value="Dones">
+                                                  </div>
+                                                  
+                                            
+                                        </form>
 
                                         </div>
                                     </div>
@@ -215,14 +164,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- end row -->
+        
 
             </div>
 
             
-        </div> <!-- container-fluid -->
+        </div> 
     </div>
-    <!-- End Page-content -->
+ 
 
   
     
