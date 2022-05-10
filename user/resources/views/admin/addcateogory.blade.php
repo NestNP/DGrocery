@@ -1,4 +1,4 @@
-@include ('admin/header')
+ @include ('admin/header')
 @include ('admin/sidebar')
 
 @include ('admin/script')
@@ -39,17 +39,20 @@
               <div class="card">
                 <div class="card-body">
                   
+                  <form action="/create" method="POST">
+                    @csrf
                   <div class="row mb-3">
                     <label
                       for="example-text-input"
                       class="col-sm-2 col-form-label"
-                      >Cateogory</label>
+                      >Category</label>
                     <div class="col-sm-10">
                       <input
                         class="form-control"
                         type="text"
                         placeholder="Cateogory Name"
                         id="example-text-input"
+                        name="Category_name"
                       />
                     </div>
                   </div>
@@ -57,7 +60,7 @@
                     <label
                       for="example-search-input"
                       class="col-sm-2 col-form-label"
-                      >Slog</label
+                      >Slug</label
                     >
                     <div class="col-sm-10">
                       <input
@@ -65,6 +68,7 @@
                         type="search"
                         placeholder="Sub-Cateogory"
                         id="example-search-input"
+                        name="Slug"
                       />
                     </div>
                   </div>
@@ -73,7 +77,7 @@
 
 
                   <div class="float-end d-none d-sm-block" style="margin: 10px auto">
-                    <a href="" class="btn btn-success">Create Account</a>
+                    <input type="submit" class="btn btn-success" value="Create">
                   </div>
                   
                 </div>
