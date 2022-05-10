@@ -19,15 +19,13 @@ class CreateProductsTable extends Migration
             $table->string('Manufacturer_name');
             $table->string('Manufacturer_Brand')->nullable();
             $table->decimal('Price');
-            $table->string('Category');
-            $table->string('Features');
+            $table->string('Category')->nullable();
+            $table->string('Features')->nullable();
+            $table->string('Product_details')->nullable();
             $table->string('Product_description')->nullable();
-            $table->string('Product_image')->nullable();
             $table->unsignedInteger('quantity')->default(10);
-            $table->string('Meta_data');
-            $table->string('Meta_title');
-            $table->string('Meta_keywords');
-            $table->string('Meta_description');
+            $table->string('Product_image')->nullable();
+            $table->string('Featured_image')->nullable();
             $table->timestamps();
         });
     }
