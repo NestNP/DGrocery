@@ -33,15 +33,8 @@ class AdminProducts extends Controller
         $Product_image = $request->input('Product_image');
         $Featured_image = $request->input('Featured_image');
         $quantity = $request->input('quantity');
-        // $Meta_data = $request->input('Meta_data');
-        // $Meta_title = $request->input('Meta_title');
-        // $Meta_keywords = $request->input('Meta_keywords');
-        // $Meta_description = $request->input('Meta_description');
         $data=array('Product_name'=>$Product_name,"Manufacturer_name"=>$Manufacturer_name,"Manufacturer_Brand"=>$Manufacturer_Brand,"Price"=>$Price,"Category"=>$Category,"Features"=>$Features,"Product_description"=>$Product_description ,"Product_details"=>$Product_details,"Product_image"=>$Product_image ,"Featured_image"=>$Featured_image,"quantity"=>$quantity);
-        // print_r ($data);
         DB::table('products')->insert($data);    
-        // echo "Record inserted successfully.<br/>";
-        // echo '<a href = "/insert">Click Here</a> to go back.';
         }
    
 
