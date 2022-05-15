@@ -10,6 +10,7 @@ return array(
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\AdminController' => $baseDir . '/app/Http/Controllers/AdminController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\ProductUpdateController' => $baseDir . '/app/Http/Controllers/ProductUpdateController.php',
     'App\\Http\\Controllers\\admin\\AdminCalender' => $baseDir . '/app/Http/Controllers/admin/AdminCalender.php',
     'App\\Http\\Controllers\\admin\\AdminCart' => $baseDir . '/app/Http/Controllers/admin/AdminCart.php',
     'App\\Http\\Controllers\\admin\\AdminChat' => $baseDir . '/app/Http/Controllers/admin/AdminChat.php',
