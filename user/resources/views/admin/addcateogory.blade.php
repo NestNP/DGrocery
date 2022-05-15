@@ -4,7 +4,7 @@
 @include ('admin/script')
 <div class="main-content">
     <div class="page-content">
-      <!-- start page title -->
+  
       <div class="page-title-box" style="background-color: #cc5500;">
         <div class="container-fluid">
           <div class="row align-items-center">
@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-      <!-- end page title -->
+
   
       <div class="container-fluid">
         <div class="page-content-wrapper">
@@ -83,23 +83,14 @@
                 </div>
               </div>
             </div>
-            <!-- end col -->
+           
           </div>
-          <!-- end row -->
   
-          
-          <!-- end row -->
-  
-        
-          <!-- end row -->
-  
-          
-          <!-- end row -->
         </div>
       </div>
-      <!-- container-fluid -->
+     
     </div>
-    <!-- End Page-content -->
+   
   
     <footer class="footer">
       <div class="container-fluid">

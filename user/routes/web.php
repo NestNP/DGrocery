@@ -72,23 +72,3 @@ Route::post('create','admin\Adminaddcateogory@insert');
 Route::get('insert','admin\Adminproducts@insertproductform');
 Route::post('create','admin\Adminproducts@insertproduct');   
 
-// purano routes
-
-// sakeko routes
-// Route::get('/admin','AdminController@adminHomepage' )->name('admin');
-// Route::get('/admin/calendar','AdminController@adminCalendar' )->name('calendar');
-// Route::get('/admin/addpost','AdminController@adminAddPost' )->name('addpost');
-// Route::get('/admin/viewpost','AdminController@adminViewPost' )->name('viewpost');
-// Route::get('/admin/products','AdminController@adminProducts' )->name('products');
-// Route::get('/admin/productsdetail','AdminController@adminProductsdetail' )->name('productsdetail');
-// Route::get('/admin/orders','AdminController@adminorders' )->name('orders');
-// Route::get('/admin/viewcostumers','AdminController@adminviewcostumers' )->name('viewcostumers');
-// Route::get('/admin/chat','AdminController@adminchat' )->name('chat');
-// Route::get('/admin/addproduct','AdminController@adminaddproduct' )->name('addproduct');
-// Route::get('/admin/addusers','AdminController@adminaddusers' )->name('addusers');
-// Route::get('/admin/addpage','AdminController@adminaddpage' )->name('addpage');
-// Route::get('/admin/viewpage','AdminController@adminviewpage' )->name('viewpage');
-// Route::get('/admin/inbox','AdminController@admininbox' )->name('inbox');
-
-// Route::get('/admin/emailcompose','AdminController@adminemailcompose' )->name('emailcompose');
-// Route::get('/admin/cart','AdminController@admincart' )->name('cart');
