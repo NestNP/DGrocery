@@ -510,6 +510,7 @@ class ComposerStaticInit59e0ba2045953c60539d44de939ef64f
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\AdminController' => __DIR__ . '/../..' . '/app/Http/Controllers/AdminController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\ProductUpdateController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProductUpdateController.php',
         'App\\Http\\Controllers\\admin\\AdminCalender' => __DIR__ . '/../..' . '/app/Http/Controllers/admin/AdminCalender.php',
         'App\\Http\\Controllers\\admin\\AdminCart' => __DIR__ . '/../..' . '/app/Http/Controllers/admin/AdminCart.php',
         'App\\Http\\Controllers\\admin\\AdminChat' => __DIR__ . '/../..' . '/app/Http/Controllers/admin/AdminChat.php',
