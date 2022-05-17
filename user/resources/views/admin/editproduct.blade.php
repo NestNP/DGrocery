@@ -50,7 +50,7 @@
                                             <p class="card-title-desc">Fill all information below</p>
 
                                             
-                                                <form action = "/edit/<?php echo $products[0]->id; ?>" method = "post">
+                                                <form action = "{{URL('/edit/<?php echo $products[0]->id; ?>')}}" method = "put">
                                                 @csrf
                                                 <div class="mb-3">
                                                     <label class="form-label" for="productname">Product Name</label>
