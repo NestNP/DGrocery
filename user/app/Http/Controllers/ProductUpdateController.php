@@ -32,3 +32,16 @@ class ProductUpdateController extends Controller
         // echo '<a href = "/edit-records">Click Here</a> to go back.';
      }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
