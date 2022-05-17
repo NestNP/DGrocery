@@ -89,7 +89,7 @@
                                                         
                                                      
                                                         <td id="tooltip-container0">
-                                                            <a href = 'edit/{{ $products->id }}'" class="me-3 text-primary" data-bs-container="#tooltip-container0" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                                            <a href = {{('edit/{{ $products->id }}')}} class="me-3 text-primary" data-bs-container="#tooltip-container0" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
                                                             <a href="productsdelete/{{$products->id}}" class="text-danger" data-bs-container="#tooltip-container0" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i class="mdi mdi-trash-can font-size-18"></i></a>
                                                         </td>
                                                       
