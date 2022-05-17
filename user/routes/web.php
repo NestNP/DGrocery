@@ -72,3 +72,6 @@ Route::post('create','admin\Adminaddcateogory@insert');
 Route::get('insert','admin\Adminproducts@insertproductform');
 Route::post('create','admin\Adminproducts@insertproduct');   
 
+Route::get('edit-records','ProductUpdateController@index');
+Route::get('edit/{id}','ProductUpdateController@show');
+Route::post('edit/{id}','ProductUpdateController@edit');
