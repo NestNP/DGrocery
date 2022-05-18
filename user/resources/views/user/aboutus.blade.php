@@ -24,32 +24,7 @@
                     <p>Daily Grocery is one of the fastest growing Grocery and Retail chain of Nepal operated by the best professionals of this industry.
                         The company is moving ahead to serve its customer with the highest quality products at the most reasonable price.</p>
 
-                 <!--    <p>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu
-                        lacus. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus
-                        eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros.</p>
-
-                    <p>Integer rutrum ante eu lacus.Vestibulum libero nisl, porta vel, scelerisque eget, <a
-                            href="#">malesuada at</a>, neque. Vivamus eget nibh. Etiam cursus leo vel metus. Nulla
-                        facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                        posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue.
-                    </p>
-
-                    <p>Nam elit agna,endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa.
-                        Quisque diam lorem, interdum vitae,dapibus ac, scelerisque vitae, pede. Donec eget tellus
-                        non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Vestibulum iaculis
-                        lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor
-                        sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum
-                        nisl. </p>
-                    <p>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu
-                        lacus. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus
-                        eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros.</p>
-
-                    <p>Integer rutrum ante eu lacus.Vestibulum libero nisl, porta vel, scelerisque eget, <a
-                            href="#">malesuada at</a>, neque. Vivamus eget nibh. Etiam cursus leo vel metus. Nulla
-                        facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                        posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue.
-                    </p> -->
-
+                 
                 </div>
 
             </div><!-- Main Content -->
