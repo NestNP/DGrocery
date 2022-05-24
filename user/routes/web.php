@@ -11,7 +11,7 @@ use App\Http\Controllers\admin\AdminViewPost;
 use App\Http\Controllers\admin\AdminProducts;
 use App\Http\Controllers\admin\DeleteProduct;
 use App\Http\Controllers\admin\AdminProductsDetail;
-use App\Http\Controllers\admin\AdminOrders;
+use App\Http\Controllers\admin\AdminOrders;                          
 use App\Http\Controllers\admin\AdminViewCostumers;
 use App\Http\Controllers\admin\AdminCart;
 use App\Http\Controllers\admin\AdminChat;
