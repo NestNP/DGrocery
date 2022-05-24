@@ -34,7 +34,9 @@ class AdminProducts extends Controller
         $Featured_image = $request->input('Featured_image');
         $quantity = $request->input('quantity');
         $data=array('Product_name'=>$Product_name,"Manufacturer_name"=>$Manufacturer_name,"Manufacturer_Brand"=>$Manufacturer_Brand,"Price"=>$Price,"Category"=>$Category,"Features"=>$Features,"Product_description"=>$Product_description ,"Product_details"=>$Product_details,"Product_image"=>$Product_image ,"Featured_image"=>$Featured_image,"quantity"=>$quantity);
-        DB::table('products')->insert($data);    
+        DB::table('products')->insert($data);  
+        echo "Record inserted successfully.<br/>";
+        echo '<a href = "/insert">Click Here</a> to go back.';  
         }
    
 
