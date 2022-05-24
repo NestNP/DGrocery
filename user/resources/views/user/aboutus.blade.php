@@ -31,8 +31,7 @@
 
             <!-- Sidebar -->
             <div class="col-md-3 col-md-pull-9   col-sidebar">
-
-                <!-- Block  bestseller products-->
+ 
                 <div class="block-sidebar block-sidebar-categorie">
                     <div class="block-title">
                         <strong>PRODUCT TYPES</strong>

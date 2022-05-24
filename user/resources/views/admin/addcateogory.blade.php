@@ -68,8 +68,7 @@
                         type="search"
                         placeholder="Sub-Cateogory"
                         id="example-search-input"
-                        name="Slug"
-                      />
+                        name="Slug"/>
                     </div>
                   </div>
                    
