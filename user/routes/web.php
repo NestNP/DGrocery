@@ -67,11 +67,17 @@ Route::get('/admin/emailcompose','admin\AdminEmail@adminEmailcompose' )->name('e
 Route::get('/admin/cart','admin\AdminCart@admincart' )->name('adminCart');
 Route::get('/admin/editproduct','admin\AdminProductAction@admineditproduct' )->name('admineditproduct');
 Route::get('/admin/addcateogory','admin\Adminaddcateogory@adminaddcateogory' )->name('addcateogory');
+
+// addcateogory
 Route::get('insert','admin\Adminaddcateogory@insertform');
 Route::post('create','admin\Adminaddcateogory@insert'); 
+
+
+//addproduct
 Route::get('insert','admin\Adminproducts@insertproductform');
 Route::post('create','admin\Adminproducts@insertproduct');   
 
+//editproduct
 Route::get('edit-records','ProductUpdateController@index');
 Route::get('edit/{id}','ProductUpdateController@show');
 Route::post('edit/{id}','ProductUpdateController@edit');

@@ -16,8 +16,8 @@ class Adminaddcateogory extends Controller
         $Slug = $request->input('Slug');
         $data=array('Category_name'=>$Category_name,"Slug"=>$Slug);
         DB::table('category')->insert($data);
-            // echo "Record inserted successfully.<br/>";
-            // echo '<a href = "/insert">Click Here</a> to go back.';
+            echo "Record inserted successfully.<br/>";
+            echo '<a href = "/insert">Click Here</a> to go back.';
         }
 }
 ?>
